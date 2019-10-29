@@ -1,0 +1,21 @@
+what are the categories??
+
+should they be in a specific order? try to order them in terms of how they'll be layered..
+
+skin
+    -1 - 5
+shoulders
+    -M - F
+hair
+    - (currently red) 1-7
+eyebrows
+eyes 
+facial hair
+mouths
+accessories
+
+
+
+
+next steps
+create a conditional block for skin color to try to generate one of our svgs

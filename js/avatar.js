@@ -1,3 +1,24 @@
+function drawSkin() {
+    if (skin === "Skin1") {
+        drawImage(skin1)
+
+    } else if (skin === "Skin2") {
+        drawImage(skin2)
+
+    } else if (skin === "Skin3") {
+        drawImage(skin3)
+
+    } else if (skin === "Skin4") {
+        drawImage(skin4)
+
+    } else if (skin === "Skin5") {
+        drawImage(skin5)
+        
+    } else {
+        ctx.clearRect(0, 0, canvas.width, canvas.height)
+    }
+}
+
 function drawBodyshape() {
     if (gender === "Female") {
         if (shape === "Triangle") {
@@ -189,6 +210,7 @@ function drawFootwear() {
 
 function drawAvatar() {
     ctx.clearRect(0, 0, canvas.width, canvas.height)
+    drawSkin()
     drawBodyshape()
     drawEyes()
     drawNose()
