@@ -1,24 +1,3 @@
-function drawSkin() {
-    if (skin === "Skin1") {
-        drawImage(skin1)
-
-    } else if (skin === "Skin2") {
-        drawImage(skin2)
-
-    } else if (skin === "Skin3") {
-        drawImage(skin3)
-
-    } else if (skin === "Skin4") {
-        drawImage(skin4)
-
-    } else if (skin === "Skin5") {
-        drawImage(skin5)
-        
-    } else {
-        ctx.clearRect(0, 0, canvas.width, canvas.height)
-    }
-}
-
 function drawBodyshape() {
         if (shape === "Triangle") {
             drawImage(femaleTriangle)
@@ -38,34 +17,12 @@ function drawBodyshape() {
         else {
             ctx.clearRect(0, 0, canvas.width, canvas.height)
         }
- 
-    // else if (gender === "Male") {
-    //     if (shape === "Triangle") {
-    //         drawImage(maleTriangle)
-    //         console.log(maleTriangle)
-    //     }
-    //     else if (shape === "Pear") {
-    //         drawImage(malePear)
-    //     }
-    //     else if (shape === "Apple") {
-    //         drawImage(maleApple)
-    //     }
-    //     else if (shape === "Rectangle") {
-    //         drawImage(maleRectangle)
-    //     }
-    //     else if (shape === "Hourglass") {
-    //         drawImage(maleHourglass)
-    //     }
-    //     else {
-    //         ctx.clearRect(0, 0, canvas.width, canvas.height)
-    //     }
-    // }
- 
+  
 }
 
 function drawEyes() {
-    if ( ((gender === "") || (shape === "")) && (eye !== "") ){
-        alert("Bodystyle and gender must be chosen before eyes.")
+    if ( ( (shape === "")) && (eye !== "") ){
+        alert("Skin colour and gender must be chosen before eyes.")
         //eye = ""
     }
     else{
@@ -85,10 +42,9 @@ function drawEyes() {
 }
 
 function drawHair() {
-    if (( (gender === "") || (shape === "")) && ((hair != "") || (haircolor !== "")) ){
+    if (( (shape === "")) && ((hair != "") || (haircolor !== "")) ){
         alert("Bodystyle and gender must be chosen before hair.")
-       // hair = ""
-      //  haircolor = ""
+   
     }
     else
     {
@@ -167,7 +123,7 @@ function drawHair() {
     }
 }
 function drawNose(){
-    if ( ((gender === "") || (shape === "")) && (nose !== "") ){
+    if ( ((shape === "")) && (nose !== "") ){
         alert("Bodystyle and gender must be chosen before nose.")
        // nose = ""
     }
@@ -198,7 +154,6 @@ function drawClothing() {
 
 function drawAvatar() {
     ctx.clearRect(0, 0, canvas.width, canvas.height)
-    drawSkin()
     drawBodyshape()
     drawEyes()
     drawNose()

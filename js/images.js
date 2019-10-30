@@ -15,21 +15,6 @@ skin1.src = "img/avatar-parts/Skin/Skin-4.svg"
 var skin5 = new Image()
 skin1.src = "img/avatar-parts/Skin/Skin-5.svg"
 
-//Male avatar body types
-var maleApple = new Image()
-maleApple.src = "img/avatar-parts/Skin/Skin-1.svg"
-
-var maleRectangle = new Image()
-maleRectangle.src = "img/male_rectangle.svg"
-
-var maleHourglass = new Image()
-maleHourglass.src = "img/male_hourglass.svg"
-
-var malePear = new Image()
-malePear.src = "img/male_pear.svg"
-
-var maleTriangle = new Image()
-maleTriangle.src = "img/male_triangle.svg"
 
 
 // Female avatar body types
@@ -46,16 +31,16 @@ var femalePear = new Image()
 femalePear.src = "img/avatar-parts/Skin/Skin-4.svg"
 
 var femaleTriangle = new Image()
-femaleTriangle.src = "img/avatar-parts/Skin/Skin-4.svg"
+femaleTriangle.src = "img/avatar-parts/Skin/Skin-5.svg"
 
 var eyeBlue = new Image()
-eyeBlue.src = "img/blue_eyes.svg"
+eyeBlue.src = "img/avatar-parts/Eyes/Eyes-Blue.svg"
 
 var eyeGreen = new Image()
 eyeGreen.src = "img/green_eyes.svg"
 
 var eyeBrown = new Image()
-eyeBrown.src = "img/brown_eyes.svg"
+eyeBrown.src = "img/avatar-parts/Eyes/Eyes-Black.svg"
 
 var eyeOgre = new Image()
 eyeOgre.src = "img/blue_ogre_eye.svg"
@@ -74,7 +59,7 @@ var shortBlue = new Image()
 shortBlue.src = "img/blue_short_hair.svg"
 
 var shortRed = new Image()
-shortRed.src = "img/red_short_hair.svg"
+shortRed.src = "img/avatar-parts/Hair/Hair-1-R.svg"
 
 var shortPink = new Image()
 shortPink.src = "img/pink_short_hair.svg"
@@ -95,7 +80,7 @@ var mediumBlue = new Image()
 mediumBlue.src = "img/blue_Medium_hair.svg"
 
 var mediumRed = new Image()
-mediumRed.src = "img/red_Medium_hair.svg"
+mediumRed.src = "img/avatar-parts/Hair/Hair-3.svg"
 
 var mediumPink = new Image()
 mediumPink.src = "img/pink_Medium_hair.svg"
@@ -116,7 +101,7 @@ var longBlue = new Image()
 longBlue.src = "img/blue_long_hair.svg"
 
 var longRed = new Image()
-longRed.src = "img/red_long_hair.svg"
+longRed.src = "img/avatar-parts/Hair/Hair-4.svg"
 
 var longPink = new Image()
 longPink.src = "img/pink_long_hair.svg"
