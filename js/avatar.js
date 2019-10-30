@@ -20,7 +20,6 @@ function drawSkin() {
 }
 
 function drawBodyshape() {
-    if (gender === "Female") {
         if (shape === "Triangle") {
             drawImage(femaleTriangle)
         }
@@ -39,31 +38,29 @@ function drawBodyshape() {
         else {
             ctx.clearRect(0, 0, canvas.width, canvas.height)
         }
-    }
-    else if (gender === "Male") {
-        if (shape === "Triangle") {
-            drawImage(maleTriangle)
-            console.log(maleTriangle)
-        }
-        else if (shape === "Pear") {
-            drawImage(malePear)
-        }
-        else if (shape === "Apple") {
-            drawImage(maleApple)
-        }
-        else if (shape === "Rectangle") {
-            drawImage(maleRectangle)
-        }
-        else if (shape === "Hourglass") {
-            drawImage(maleHourglass)
-        }
-        else {
-            ctx.clearRect(0, 0, canvas.width, canvas.height)
-        }
-    }
-    else {
-        ctx.clearRect(0, 0, canvas.width, canvas.height)
-    }
+ 
+    // else if (gender === "Male") {
+    //     if (shape === "Triangle") {
+    //         drawImage(maleTriangle)
+    //         console.log(maleTriangle)
+    //     }
+    //     else if (shape === "Pear") {
+    //         drawImage(malePear)
+    //     }
+    //     else if (shape === "Apple") {
+    //         drawImage(maleApple)
+    //     }
+    //     else if (shape === "Rectangle") {
+    //         drawImage(maleRectangle)
+    //     }
+    //     else if (shape === "Hourglass") {
+    //         drawImage(maleHourglass)
+    //     }
+    //     else {
+    //         ctx.clearRect(0, 0, canvas.width, canvas.height)
+    //     }
+    // }
+ 
 }
 
 function drawEyes() {
@@ -197,16 +194,7 @@ function drawClothing() {
     }
 }
 
-function drawFootwear() {
-    if (footwear === "noshoe") {
-    }
-    else if(footwear === "tennis"){
-    }
-    else if(footwear === "boots"){
-    }
-    else if(footwear === "socks"){
-    }
-}
+
 
 function drawAvatar() {
     ctx.clearRect(0, 0, canvas.width, canvas.height)
@@ -216,7 +204,6 @@ function drawAvatar() {
     drawNose()
     drawHair()
     drawClothing()
-    drawFootwear()
 }
 
 function drawImage(image) {
