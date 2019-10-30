@@ -112,7 +112,7 @@ longGreen.src = "img/green_long_hair.svg"
 //noses
 
 var noseTriangle = new Image()
-noseTriangle.src = "img/noses_triangle.svg"
+noseTriangle.src = "img/avatar-parts/Shoulders-M_F/Shoulders-F.svg"
 
 var noseFlat = new Image()
-noseFlat.src = "img/noses_flat.svg"
+noseFlat.src = "img/avatar-parts/Shoulders-M_F/Shoulders-M.svg"
