@@ -122,6 +122,9 @@ function drawHair() {
         }
     }
 }
+
+//copy the hair logic above to do facial hair
+
 function drawNose(){
     if ( ((shape === "")) && (nose !== "") ){
         alert("Bodystyle and gender must be chosen before nose.")
@@ -136,6 +139,8 @@ function drawNose(){
         }
     }
 }
+
+//copy nose logic above for accessories
 
 function drawClothing() {
     g = clothing[gender]
@@ -159,6 +164,8 @@ function drawAvatar() {
     drawNose()
     drawHair()
     drawClothing()
+
+    //add facial hair and accessories
 }
 
 function drawImage(image) {

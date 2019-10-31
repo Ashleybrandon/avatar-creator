@@ -6,6 +6,7 @@
   <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" href="favicon.ico">
     <link rel="stylesheet" href="https://use.typekit.net/lnk3kjd.css?ver=5.2.3">
+    <link rel="stylesheet" href="css/feather.css">
     <link rel="stylesheet" href="css/style.css">
   <title>Avatar Toolkit</title>
 </head>
@@ -29,7 +30,7 @@
         <!-- All of the Avatar options -->
         <h1>To make an avatar...</h1>
 
-        <form name="formShape">
+        <!-- <form name="formShape">
           <h3>Choose a skin colour</h3>
           1 <input type="radio" name="myradio" value="Triangle" />
           2 <input type="radio" name="myradio" value="Pear" />
@@ -37,13 +38,69 @@
           4 <input type="radio" name="myradio" value="Rectangle" />
           5 <input type="radio" name="myradio" value="Hourglass" />
 
-        </form>
+        </form> -->
 
-        <form name="formeyes">
+        <div class="dropdown">
+            <form name="formShape">
+            <div class="dropdown__menu"> <h3>Choose Skin Colour</h3> </div>
+            
+            <div class="dropdown__content">
+              
+              <div class="dropdown__element">
+                <input type="radio" id="Triangle" name="myradio" value="Triangle">
+                <label for="Triangle">1</label>
+              </div>
+              
+              <div class="dropdown__element">
+                <input type="radio" id="Pear" name="myradio" value="Pear">
+                <label for="Pear">2</label>
+              </div>
+
+              <div class="dropdown__element">
+                <input type="radio" id="Apple" name="myradio" value="Apple">
+                <label for="Apple">3</label>
+              </div>
+
+              <div class="dropdown__element">
+                <input type="radio" id="Rectangle" name="myradio" value="Rectangle">
+                <label for="Rectangle">4</label>
+              </div>
+
+              <div class="dropdown__element">
+                <input type="radio" id="Hourglass" name="myradio" value="Hourglass">
+                <label for="Hourglass">5</label>
+              </div>
+              
+            </div>
+            </form>
+          </div>
+
+
+        <!-- <form name="formeyes">
           <h3>Choose an eye colour</h3>
           Blue <input type="radio" name="myradio" value="Blue" />
           Black <input type="radio" name="myradio" value="Brown" />
-        </form>
+        </form> -->
+
+        <div class="dropdown">
+            <form name="formeyes">
+            <div class="dropdown__menu"> <h3>Choose Eye Colour</h3> </div>
+            
+            <div class="dropdown__content">
+              
+              <div class="dropdown__element">
+                <input type="radio" id="Blue" name="myradio" value="Blue">
+                <label for="Blue">Blue</label>
+              </div>
+              
+              <div class="dropdown__element">
+                <input type="radio" id="Black" name="myradio" value="Black">
+                <label for="Black">Black</label>
+              </div>
+              
+            </div>
+            </form>
+          </div>
 
         <form name="formnoses">
           <h3>Choose Shoulders</h3>
@@ -102,6 +159,8 @@
     <script src="js/hair.js"></script>
     <script src="js/nose.js"></script>
     <script src="js/download.js"></script>
+
+    <script src="js/dropdown.js"></script>
 </body>
 
 </html>

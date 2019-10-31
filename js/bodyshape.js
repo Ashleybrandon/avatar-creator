@@ -7,3 +7,16 @@ for (var i = 0; i < radios.length; i++) {
             drawAvatar()
     }
 }
+
+// var radios = document.getElementById("formShape").options;
+// function testFunc(radios) {
+//     var shape = ""
+
+//     for (var i = 0; i < radios.length; i++) { 
+//         radios[i] = function() {
+//             shape = this.value
+//                 drawAvatar()
+//         }
+//     }
+// }
+// console.log(radios);
