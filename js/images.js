@@ -37,82 +37,258 @@ var eyeBlue = new Image()
 eyeBlue.src = "img/avatar-parts/Eyes/Eyes-Blue.svg"
 
 var eyeGreen = new Image()
-eyeGreen.src = "img/green_eyes.svg"
+eyeGreen.src = "img/avatar-parts/Eyes/Eyes-Green.svg"
 
-var eyeBrown = new Image()
-eyeBrown.src = "img/avatar-parts/Eyes/Eyes-Black.svg"
+var eyeBlack = new Image()
+eyeBlack.src = "img/avatar-parts/Eyes/Eyes-Black.svg"
 
-var eyeOgre = new Image()
-eyeOgre.src = "img/blue_ogre_eye.svg"
+var eyeGrey = new Image()
+eyeGrey.src = "img/avatar-parts/Eyes/Eyes-Grey.svg"
 
-//Hair colors and length
-var shortBlonde = new Image()
-shortBlonde.src = "img/blonde_short_hair.svg"
+var eyeLightBrown = new Image()
+eyeLightBrown.src = "img/avatar-parts/Eyes/Eyes-Light-Brown.svg"
 
-var shortBrown = new Image()
-shortBrown.src = "img/brown_short_hair.svg"
+var eyeDarkBrown = new Image()
+eyeDarkBrown.src = "img/avatar-parts/Eyes/Eyes-Dark-Brown.svg"
 
-var shortBlack = new Image()
-shortBlack.src = "img/black_short_hair.svg"
 
-var shortBlue = new Image()
-shortBlue.src = "img/blue_short_hair.svg"
 
-var shortRed = new Image()
-shortRed.src = "img/avatar-parts/Hair/Hair-1-R.svg"
+//Hair
 
-var shortPink = new Image()
-shortPink.src = "img/pink_short_hair.svg"
 
-var shortGreen = new Image()
-shortGreen.src = "img/green_short_hair.svg"
+var quiffShortBlonde = new Image()
+quiffShortBlonde.src = "img/avatar-parts/Hair/quiff-short-blonde.svg"
 
-var mediumBlonde = new Image()
-mediumBlonde.src = "img/blonde_Medium_hair.svg"
+var quiffShortBrown = new Image()
+quiffShortBrown.src = "img/avatar-parts/Hair/quiff-short-brown.svg"
 
-var mediumBrown = new Image()
-mediumBrown.src = "img/brown_Medium_hair.svg"
+var quiffShortBlack = new Image()
+quiffShortBlack.src = "img/avatar-parts/Hair/quiff-short-black.svg"
 
-var mediumBlack = new Image()
-mediumBlack.src = "img/black_Medium_hair.svg"
+var quiffShortBlue = new Image()
+quiffShortBlue.src = "img/avatar-parts/Hair/quiff-short-blue.svg"
 
-var mediumBlue = new Image()
-mediumBlue.src = "img/blue_Medium_hair.svg"
+var quiffShortRed = new Image()
+quiffShortRed.src = "img/avatar-parts/Hair/quiff-short-red.svg"
 
-var mediumRed = new Image()
-mediumRed.src = "img/avatar-parts/Hair/Hair-3.svg"
+var quiffShortPink = new Image()
+quiffShortPink.src = "img/avatar-parts/Hair/quiff-short-pink.svg"
 
-var mediumPink = new Image()
-mediumPink.src = "img/pink_Medium_hair.svg"
+var quiffShortGrey = new Image()
+quiffShortGrey.src = "img/avatar-parts/Hair/quiff-short-grey.svg"
 
-var mediumGreen = new Image()
-mediumGreen.src = "img/green_Medium_hair.svg"
 
-var longBlonde = new Image()
-longBlonde.src = "img/blonde_long_hair.svg"
+var bobBlonde = new Image()
+bobBlonde.src = "img/avatar-parts/Hair/bob-blonde.svg"
 
-var longBrown = new Image()
-longBrown.src = "img/brown_long_hair.svg"
+var bobBrown = new Image()
+bobBrown.src = "img/avatar-parts/Hair/bob-brown.svg"
 
-var longBlack = new Image()
-longBlack.src = "img/black_long_hair.svg"
+var bobBlack = new Image()
+bobBlack.src = "img/avatar-parts/Hair/bob-black.svg"
 
-var longBlue = new Image()
-longBlue.src = "img/blue_long_hair.svg"
+var bobBlue = new Image()
+bobBlue.src = "img/avatar-parts/Hair/bob-blue.svg"
 
-var longRed = new Image()
-longRed.src = "img/avatar-parts/Hair/Hair-4.svg"
+var bobRed = new Image()
+bobRed.src = "img/avatar-parts/Hair/bob-red.svg"
 
-var longPink = new Image()
-longPink.src = "img/pink_long_hair.svg"
+var bobPink = new Image()
+bobPink.src = "img/avatar-parts/Hair/bob-pink.svg"
 
-var longGreen = new Image()
-longGreen.src = "img/green_long_hair.svg"
+var bobGrey = new Image()
+bobGrey.src = "img/avatar-parts/Hair/bob-grey.svg"
 
-//noses
 
-var noseTriangle = new Image()
-noseTriangle.src = "img/avatar-parts/Shoulders-M_F/Shoulders-F.svg"
+var bunBlonde = new Image()
+bunBlonde.src = "img/avatar-parts/Hair/bun-blonde.svg"
 
-var noseFlat = new Image()
-noseFlat.src = "img/avatar-parts/Shoulders-M_F/Shoulders-M.svg"
+var bunBrown = new Image()
+bunBrown.src = "img/avatar-parts/Hair/bun-brown.svg"
+
+var bunBlack = new Image()
+bunBlack.src = "img/avatar-parts/Hair/bun-black.svg"
+
+var bunBlue = new Image()
+bunBlue.src = "img/avatar-parts/Hair/bun-blue.svg"
+
+var bunRed = new Image()
+bunRed.src = "img/avatar-parts/Hair/bun-red.svg"
+
+var bunPink = new Image()
+bunPink.src = "img/avatar-parts/Hair/bun-pink.svg"
+
+var bunGrey = new Image()
+bunGrey.src = "img/avatar-parts/Hair/bun-grey.svg"
+
+
+
+var ponyBlonde = new Image()
+ponyBlonde.src = "img/avatar-parts/Hair/pony-blonde.svg"
+
+var ponyBrown = new Image()
+ponyBrown.src = "img/avatar-parts/Hair/pony-brown.svg"
+
+var ponyBlack = new Image()
+ponyBlack.src = "img/avatar-parts/Hair/pony-black.svg"
+
+var ponyBlue = new Image()
+ponyBlue.src = "img/avatar-parts/Hair/pony-blue.svg"
+
+var ponyRed = new Image()
+ponyRed.src = "img/avatar-parts/Hair/pony-red.svg"
+
+var ponyPink = new Image()
+ponyPink.src = "img/avatar-parts/Hair/pony-pink.svg"
+
+var ponyGrey = new Image()
+ponyGrey.src = "img/avatar-parts/Hair/pony-grey.svg"
+
+
+
+var crewBlonde = new Image()
+crewBlonde.src = "img/avatar-parts/Hair/crew-blonde.svg"
+
+var crewBrown = new Image()
+crewBrown.src = "img/avatar-parts/Hair/crew-brown.svg"
+
+var crewBlack = new Image()
+crewBlack.src = "img/avatar-parts/Hair/crew-black.svg"
+
+var crewBlue = new Image()
+crewBlue.src = "img/avatar-parts/Hair/crew-blue.svg"
+
+var crewRed = new Image()
+crewRed.src = "img/avatar-parts/Hair/crew-red.svg"
+
+var crewPink = new Image()
+crewPink.src = "img/avatar-parts/Hair/crew-pink.svg"
+
+var crewGrey = new Image()
+crewGrey.src = "img/avatar-parts/Hair/crew-grey.svg"
+
+
+var curlyShortBlonde = new Image()
+curlyShortBlonde.src = "img/avatar-parts/Hair/curly-short-blonde.svg"
+
+var curlyShortBrown = new Image()
+curlyShortBrown.src = "img/avatar-parts/Hair/curly-short-brown.svg"
+
+var curlyShortBlack = new Image()
+curlyShortBlack.src = "img/avatar-parts/Hair/curly-short-black.svg"
+
+var curlyShortBlue = new Image()
+curlyShortBlue.src = "img/avatar-parts/Hair/curly-short-blue.svg"
+
+var curlyShortRed = new Image()
+curlyShortRed.src = "img/avatar-parts/Hair/curly-short-red.svg"
+
+var curlyShortPink = new Image()
+curlyShortPink.src = "img/avatar-parts/Hair/curly-short-pink.svg"
+
+var curlyShortGrey = new Image()
+curlyShortGrey.src = "img/avatar-parts/Hair/curly-short-grey.svg"
+
+
+var curlyLongBlonde = new Image()
+curlyLongBlonde.src = "img/avatar-parts/Hair/curly-Long-blonde.svg"
+
+var curlyLongBrown = new Image()
+curlyLongBrown.src = "img/avatar-parts/Hair/curly-Long-brown.svg"
+
+var curlyLongBlack = new Image()
+curlyLongBlack.src = "img/avatar-parts/Hair/curly-Long-black.svg"
+
+var curlyLongBlue = new Image()
+curlyLongBlue.src = "img/avatar-parts/Hair/curly-Long-blue.svg"
+
+var curlyLongRed = new Image()
+curlyLongRed.src = "img/avatar-parts/Hair/curly-Long-red.svg"
+
+var curlyLongPink = new Image()
+curlyLongPink.src = "img/avatar-parts/Hair/curly-Long-pink.svg"
+
+var curlyLongGrey = new Image()
+curlyLongGrey.src = "img/avatar-parts/Hair/curly-Long-grey.svg"
+
+
+var shortSidesLongTopBlonde = new Image()
+shortSidesLongTopBlonde.src = "img/avatar-parts/Hair/short-sides-long-top-blonde.svg"
+
+var shortSidesLongTopBrown = new Image()
+shortSidesLongTopBrown.src = "img/avatar-parts/Hair/short-sides-long-top-brown.svg"
+
+var shortSidesLongTopBlack = new Image()
+shortSidesLongTopBlack.src = "img/avatar-parts/Hair/short-sides-long-top-black.svg"
+
+var shortSidesLongTopBlue = new Image()
+shortSidesLongTopBlue.src = "img/avatar-parts/Hair/short-sides-long-top-blue.svg"
+
+var shortSidesLongTopRed = new Image()
+shortSidesLongTopRed.src = "img/avatar-parts/Hair/short-sides-long-top-red.svg"
+
+var shortSidesLongTopPink = new Image()
+shortSidesLongTopPink.src = "img/avatar-parts/Hair/short-sides-long-top-pink.svg"
+
+var shortSidesLongTopGrey = new Image()
+shortSidesLongTopGrey.src = "img/avatar-parts/Hair/short-sides-long-top-grey.svg"
+
+
+
+var straightMediumBlonde = new Image()
+straightMediumBlonde.src = "img/avatar-parts/Hair/straight-med-blonde.svg"
+
+var straightMediumBrown = new Image()
+straightMediumBrown.src = "img/avatar-parts/Hair/straight-med-brown.svg"
+
+var straightMediumBlack = new Image()
+straightMediumBlack.src = "img/avatar-parts/Hair/straight-med-black.svg"
+
+var straightMediumBlue = new Image()
+straightMediumBlue.src = "img/avatar-parts/Hair/straight-med-blue.svg"
+
+var straightMediumRed = new Image()
+straightMediumRed.src = "img/avatar-parts/Hair/straight-med-red.svg"
+
+var straightMediumPink = new Image()
+straightMediumPink.src = "img/avatar-parts/Hair/straight-med-pink.svg"
+
+var straightMediumGrey = new Image()
+straightMediumGrey.src = "img/avatar-parts/Hair/straight-med-grey.svg"
+
+
+
+var straightLongBlonde = new Image()
+straightLongBlonde.src = "img/avatar-parts/Hair/straight-long-blonde.svg"
+
+var straightLongBrown = new Image()
+straightLongBrown.src = "img/avatar-parts/Hair/straight-long-brown.svg"
+
+var straightLongBlack = new Image()
+straightLongBlack.src = "img/avatar-parts/Hair/straight-long-black.svg"
+
+var straightLongBlue = new Image()
+straightLongBlue.src = "img/avatar-parts/Hair/straight-long-blue.svg"
+
+var straightLongRed = new Image()
+straightLongRed.src = "img/avatar-parts/Hair/straight-long-red.svg"
+
+var straightLongPink = new Image()
+straightLongPink.src = "img/avatar-parts/Hair/straight-long-blonde.svg"
+
+var straightLongGrey = new Image()
+straightLongGrey.src = "img/avatar-parts/Hair/straight-long-grey.svg"
+
+//shoulders
+
+var shouldersGreenF = new Image()
+shouldersGreenF.src = "img/avatar-parts/Shoulders-M_F/Shoulders-F.svg"
+
+var shouldersGreenM = new Image()
+shouldersGreenM.src = "img/avatar-parts/Shoulders-M_F/Shoulders-M.svg"
+
+var shouldersGreyF = new Image()
+shouldersGreyF.src = "img/avatar-parts/Shoulders-M_F/Shoulders-F-Grey.svg"
+
+var shouldersGreyM = new Image()
+shouldersGreyM.src = "img/avatar-parts/Shoulders-M_F/Shoulders-M-Grey.svg"

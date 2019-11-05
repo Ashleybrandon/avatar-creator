@@ -1,0 +1,17 @@
+var eyebrows = ""
+
+var radios = document.forms["eyebrowColor"].elements["myradio"];
+for (var i = 0; i < radios.length; i++) { 
+    radios[i].onclick = function() {
+        eyebrows = this.value
+        drawAvatar()
+    }
+}
+
+
+
+
+
+
+
+

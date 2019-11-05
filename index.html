@@ -11,26 +11,22 @@
   <title>Avatar Toolkit</title>
 </head>
 
-<body>
+<body class="testClass">
   <nav>
     <div class="container">
       <div class="row">
-        <div class="col-6 logo-col"><img src="/img/ocado-logo.svg" width="160" alt="logo"></div>
+        <div class="col-6 logo-col"><img src="img/logo/ocado-logo.svg" width="160" alt="logo"></div>
         <div class="col-6"><h1>Avatar Toolkit</h1></div>
       </div>
     </div>
   </nav>
   <div class="container">
-    <div class="row">
-      <div class="col-12">
-        <!-- Where the avatar is drawn -->
-        <canvas id="avatarCanvas" width="300" height="300"></canvas>
-      </div>
-      <div class="col-12 form--section" style="background-color: #E8EEF9">
+    <div class="row main--row">
+      <div class="col-6 form--section">
         <!-- All of the Avatar options -->
         <h1>To make an avatar...</h1>
 
-        <!-- <form name="formShape">
+        <form name="formShape">
           <h3>Choose a skin colour</h3>
           1 <input type="radio" name="myradio" value="Triangle" />
           2 <input type="radio" name="myradio" value="Pear" />
@@ -38,9 +34,9 @@
           4 <input type="radio" name="myradio" value="Rectangle" />
           5 <input type="radio" name="myradio" value="Hourglass" />
 
-        </form> -->
+        </form>
 
-        <div class="dropdown">
+        <!-- <div class="dropdown">
             <form name="formShape">
             <div class="dropdown__menu"> <h3>Choose Skin Colour</h3> </div>
             
@@ -73,16 +69,20 @@
               
             </div>
             </form>
-          </div>
+          </div> -->
 
 
-        <!-- <form name="formeyes">
+        <form name="formeyes">
           <h3>Choose an eye colour</h3>
           Blue <input type="radio" name="myradio" value="Blue" />
-          Black <input type="radio" name="myradio" value="Brown" />
-        </form> -->
+          Black <input type="radio" name="myradio" value="Black" />
+          Green <input type="radio" name="myradio" value="Green" />
+          Grey <input type="radio" name="myradio" value="Grey" />
+          Light Brown <input type="radio" name="myradio" value="LightBrown" />
+          Dark Brown <input type="radio" name="myradio" value="DarkBrown" />
+        </form>
 
-        <div class="dropdown">
+        <!-- <div class="dropdown">
             <form name="formeyes">
             <div class="dropdown__menu"> <h3>Choose Eye Colour</h3> </div>
             
@@ -100,20 +100,14 @@
               
             </div>
             </form>
-          </div>
+          </div> -->
 
-        <form name="formnoses">
+        <form name="formShoulders">
           <h3>Choose Shoulders</h3>
-          F<input type="radio" name="myradio" value="Triangle" />
-          M<input type="radio" name="myradio" value="Flat" />
-        </form>
-
-        <form name="formHair">
-          <h3>Choose a hair style</h3>
-          No hair <input type="radio" name="myradio" value="Nohair" />
-          Short <input type="radio" name="myradio" value="Shorthair" />
-          Medium <input type="radio" name="myradio" value="Mediumhair" />
-          Long <input type="radio" name="myradio" value="Longhair" />
+           Green F<input type="radio" name="myradio" value="Green-F" />
+          Green M<input type="radio" name="myradio" value="Green-M" />
+          Grey F<input type="radio" name="myradio" value="Grey-F" />
+          Grey M<input type="radio" name="myradio" value="Grey-M" />
         </form>
 
         <form name="formHaircolor">
@@ -124,8 +118,36 @@
           Black <input type="radio" name="myradio" value="black" />
           Blue <input type="radio" name="myradio" value="blue" />
           Pink <input type="radio" name="myradio" value="pink" />
-          Green <input type="radio" name="myradio" value="green" />
+          Grey <input type="radio" name="myradio" value="grey" />
         </form>
+
+        <form name="formHair">
+          <h3>Choose a hair style</h3>
+          No hair <input type="radio" name="myradio" value="Nohair" />
+          Quiff <input type="radio" name="myradio" value="Quiff" />
+          Bob <input type="radio" name="myradio" value="Bob" />
+          Bun <input type="radio" name="myradio" value="Bun" />
+          Pony <input type="radio" name="myradio" value="Pony" />
+          Crew <input type="radio" name="myradio" value="Crew" />
+          Curly Short <input type="radio" name="myradio" value="CurlyShort" />
+          Curly Long <input type="radio" name="myradio" value="CurlyLong" />
+          Comb Over <input type="radio" name="myradio" value="combOver" />
+          Straight Medium <input type="radio" name="myradio" value="straightMedium" />
+          Straight Long <input type="radio" name="myradio" value="straightLong" />
+        </form>
+
+        <!-- <form name="eyebrowColor">
+          <h3>Choose a eye brow colour</h3>
+          Blonde <input type="radio" name="myradio" value="blondeEyebrows" />
+          Brown <input type="radio" name="myradio" value="brownEyebrows" />
+          Red <input type="radio" name="myradio" value="redEyebrows" />
+          Black <input type="radio" name="myradio" value="blackEyebrows" />
+          Blue <input type="radio" name="myradio" value="blueEyebrows" />
+          Pink <input type="radio" name="myradio" value="pinkEyebrows" />
+          Grey <input type="radio" name="myradio" value="greyEyebrows" />
+        </form> -->
+
+
 
         <!-- <form name="formclothing">
           <h3>Choose some Clothing </h3>
@@ -138,14 +160,20 @@
 
 
 <div class="download-button">
-        <a id="download" download="myAvatar.png" href="" onclick="download_img(this)">
-          Download image
+        <a id="download" download="myAvatar.png" href="" onclick="download_img(this)" style="background-color: #BCC811; font-weight: bold;">
+          Download avatar
         </a>
       </div>
 
-      </div>
-    </div>
+      </div> <!--end form col-->
 
+      <div class="col-6 avatar-canvas">
+        <!-- Where the avatar is drawn -->
+        <canvas id="avatarCanvas" width="300" height="300"></canvas>
+      </div>
+
+    </div>
+</div>
 
     <!-- Javascript files -->
     <script src="js/canvas.js"></script>
@@ -156,10 +184,10 @@
     <script src="js/gender.js"></script>
     <script src="js/eye.js"></script>
     <script src="js/clothes.js"></script>
+    <script src="js/shoulders.js"></script>
     <script src="js/hair.js"></script>
-    <script src="js/nose.js"></script>
+    <!-- <script src="js/eyebows.js"></script> -->
     <script src="js/download.js"></script>
-
     <script src="js/dropdown.js"></script>
 </body>
 
