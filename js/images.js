@@ -274,7 +274,7 @@ var straightLongRed = new Image()
 straightLongRed.src = "img/avatar-parts/Hair/straight-long-red.svg"
 
 var straightLongPink = new Image()
-straightLongPink.src = "img/avatar-parts/Hair/straight-long-blonde.svg"
+straightLongPink.src = "img/avatar-parts/Hair/straight-long-pink.svg"
 
 var straightLongGrey = new Image()
 straightLongGrey.src = "img/avatar-parts/Hair/straight-long-grey.svg"
@@ -292,3 +292,64 @@ shouldersGreyF.src = "img/avatar-parts/Shoulders-M_F/Shoulders-F-Grey.svg"
 
 var shouldersGreyM = new Image()
 shouldersGreyM.src = "img/avatar-parts/Shoulders-M_F/Shoulders-M-Grey.svg"
+
+
+
+
+//eyebrows
+
+var eyebrowsBlonde = new Image()
+eyebrowsBlonde.src = "img/avatar-parts/eyebrows/Eyebrows-Blonde.svg"
+
+var eyebrowsBrown = new Image()
+eyebrowsBrown.src = "img/avatar-parts/eyebrows/Eyebrows-Brown.svg"
+
+var eyebrowsBlack = new Image()
+eyebrowsBlack.src = "img/avatar-parts/eyebrows/Eyebrows-Black.svg"
+
+var eyebrowsBlue = new Image()
+eyebrowsBlue.src = "img/avatar-parts/eyebrows/Eyebrows-Blue.svg"
+
+var eyebrowsRed = new Image()
+eyebrowsRed.src = "img/avatar-parts/eyebrows/Eyebrows-Red.svg"
+
+var eyebrowsPink = new Image()
+eyebrowsPink.src = "img/avatar-parts/eyebrows/Eyebrows-Pink.svg"
+
+var eyebrowsGrey = new Image()
+eyebrowsGrey.src = "img/avatar-parts/eyebrows/Eyebrows-Grey.svg"
+
+
+//beards
+
+var shortBeardBlonde = new Image()
+shortBeardBlonde.src = "img/avatar-parts/Facial-Hair/short-beard-blonde.svg"
+
+var shortBeardBrown = new Image()
+shortBeardBrown.src = "img/avatar-parts/Facial-Hair/short-beard-Brown.svg"
+
+var shortBeardBlack = new Image()
+shortBeardBlack.src = "img/avatar-parts/Facial-Hair/short-beard-Black.svg"
+
+var shortBeardRed = new Image()
+shortBeardRed.src = "img/avatar-parts/Facial-Hair/short-beard-Red.svg"
+
+var shortBeardGrey = new Image()
+shortBeardGrey.src = "img/avatar-parts/Facial-Hair/short-beard-Grey.svg"
+
+
+var longBeardBlonde = new Image()
+longBeardBlonde.src = "img/avatar-parts/Facial-Hair/long-beard-blonde.svg"
+
+var longBeardBrown = new Image()
+longBeardBrown.src = "img/avatar-parts/Facial-Hair/long-beard-Brown.svg"
+
+var longBeardBlack = new Image()
+longBeardBlack.src = "img/avatar-parts/Facial-Hair/long-beard-Black.svg"
+
+var longBeardRed = new Image()
+longBeardRed.src = "img/avatar-parts/Facial-Hair/long-beard-Red.svg"
+
+var longBeardGrey = new Image()
+longBeardGrey.src = "img/avatar-parts/Facial-Hair/long-beard-Grey.svg"
+

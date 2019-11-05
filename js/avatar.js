@@ -322,6 +322,47 @@ function drawHair() {
     }
 }
 
+function drawEyebrows(){
+    if(eyebrows === "blondeEyebrows"){
+        drawImage(eyebrowsBlonde)
+    }
+    else if(eyebrows === "brownEyebrows"){
+        drawImage(eyebrowsBrown)
+    }
+    else if(eyebrows === "redEyebrows"){
+        drawImage(eyebrowsRed)
+    }
+    else if(eyebrows === "blackEyebrows"){
+        drawImage(eyebrowsBlack)
+    }
+    else if(eyebrows === "blueEyebrows"){
+        drawImage(eyebrowsBlue)
+    }
+    else if(eyebrows === "pinkEyebrows"){
+        drawImage(eyebrowsPink)
+    }
+    else if(eyebrows === "greyEyebrows"){
+        drawImage(eyebrowsGrey)
+    }
+}
+
+function drawBeard(){
+    if(beard === "shortBeardBlonde"){
+        drawImage(shortBeardBlonde)
+    }
+    else if(beard === "shortBeardBrown"){
+        drawImage(shortBeardBrown)
+    }
+    else if(beard === "shortBeardRed"){
+        drawImage(shortBeardRed)
+    }
+    else if(beard === "shortBeardBlack"){
+        drawImage(shortBeardBlack)
+    }
+    else if(beard === "shortBeardGrey"){
+        drawImage(shortBeardGrey)
+    }
+}
 
 
 //copy nose logic above for accessories
@@ -347,6 +388,8 @@ function drawAvatar() {
     drawEyes()
     drawShoulders()
     drawHair()
+    drawEyebrows()
+    drawBeard()
     drawClothing()
 
     //add facial hair and accessories
