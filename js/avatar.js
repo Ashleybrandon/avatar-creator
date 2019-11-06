@@ -347,7 +347,11 @@ function drawEyebrows(){
 }
 
 function drawBeard(){
-    if(beard === "shortBeardBlonde"){
+    if (beard === "noBeard") {
+         
+    }
+
+    else if(beard === "shortBeardBlonde"){
         drawImage(shortBeardBlonde)
     }
     else if(beard === "shortBeardBrown"){
@@ -362,7 +366,34 @@ function drawBeard(){
     else if(beard === "shortBeardGrey"){
         drawImage(shortBeardGrey)
     }
+    else if(beard === "longBeardBlonde"){
+        drawImage(longBeardBlonde)
+    }
+    else if(beard === "longBeardBrown"){
+        drawImage(longBeardBrown)
+    }
+    else if(beard === "longBeardRed"){
+        drawImage(longBeardRed)
+    }
+    else if(beard === "longBeardBlack"){
+        drawImage(longBeardBlack)
+    }
+    else if(beard === "longBeardGrey"){
+        drawImage(longBeardGrey)
+    }
 }
+
+// function drawBeard() {
+//     if (( (shape === "")) && ((hair != "") || (haircolor !== "")) ){
+//         alert("Bodystyle and gender must be chosen before hair.")
+   
+//     }
+//     else
+//     {
+//         if (hair === "Nohair") {
+        
+//         }
+// }
 
 
 //copy nose logic above for accessories
