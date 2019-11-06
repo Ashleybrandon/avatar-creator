@@ -1,12 +1,12 @@
-var shape = ""
+// var shape = ""
 
-var radios = document.forms["formShape"].elements["myradio"];
-for (var i = 0; i < radios.length; i++) { 
-    radios[i].onclick = function() {
-        shape = this.value
-            drawAvatar()
-    }
-}
+// var radios = document.forms["formShape"].elements["myradio"];
+// for (var i = 0; i < radios.length; i++) { 
+//     radios[i].onclick = function() {
+//         shape = this.value
+//             drawAvatar()
+//     }
+// }
 
 // var radios = document.getElementById("formShape").options;
 // function testFunc(radios) {
@@ -20,3 +20,13 @@ for (var i = 0; i < radios.length; i++) {
 //     }
 // }
 // console.log(radios);
+
+var shape = ""
+
+var radios = document.getElementById("formShape");
+
+radios.addEventListener("change", function(event) {
+    shape = event.target.value;
+    // console.log(optionEye);
+    drawAvatar();
+});

@@ -26,7 +26,7 @@
         <!-- All of the Avatar options -->
         <h1>To make an avatar...</h1>
 
-        <form name="formShape">
+        <!-- <form name="formShape">
           <h3>Choose a skin colour</h3>
           1 <input type="radio" name="myradio" value="Triangle" />
           2 <input type="radio" name="myradio" value="Pear" />
@@ -34,53 +34,19 @@
           4 <input type="radio" name="myradio" value="Rectangle" />
           5 <input type="radio" name="myradio" value="Hourglass" />
 
-        </form>
+        </form> --> 
+<div class="select-shape">
+  <h3>Choose an skin colour</h3>
+  <select id="formShape">
+      <option type="text" name="myoption" value="Triangle">1</option>
+      <option type="text" name="myoption" value="Pear">2</option>
+      <option type="text" name="myoption" value="Apple">3</option>
+      <option type="text" name="myoption" value="Rectangle">4</option>
+      <option type="text" name="myoption" value="Hourglass">5</option>
+  </select>
 
-        <!-- <div class="dropdown">
-            <form name="formShape">
-            <div class="dropdown__menu"> <h3>Choose Skin Colour</h3> </div>
-            
-            <div class="dropdown__content">
+</div>
               
-              <div class="dropdown__element">
-                <input type="radio" id="Triangle" name="myradio" value="Triangle">
-                <label for="Triangle">1</label>
-              </div>
-              
-              <div class="dropdown__element">
-                <input type="radio" id="Pear" name="myradio" value="Pear">
-                <label for="Pear">2</label>
-              </div>
-
-              <div class="dropdown__element">
-                <input type="radio" id="Apple" name="myradio" value="Apple">
-                <label for="Apple">3</label>
-              </div>
-
-              <div class="dropdown__element">
-                <input type="radio" id="Rectangle" name="myradio" value="Rectangle">
-                <label for="Rectangle">4</label>
-              </div>
-
-              <div class="dropdown__element">
-                <input type="radio" id="Hourglass" name="myradio" value="Hourglass">
-                <label for="Hourglass">5</label>
-              </div>
-              
-            </div>
-            </form>
-          </div> -->
-
-
-        <!-- <form name="formeyes">
-          <h3>Choose an eye colour</h3>
-          Blue <input type="radio" name="myradio" value="Blue" />
-          Black <input type="radio" name="myradio" value="Black" />
-          Green <input type="radio" name="myradio" value="Green" />
-          Grey <input type="radio" name="myradio" value="Grey" />
-          Light Brown <input type="radio" name="myradio" value="LightBrown" />
-          Dark Brown <input type="radio" name="myradio" value="DarkBrown" />
-        </form> -->
 
         <div class="select-eyes">
           <h3>Choose an eye colour</h3>
@@ -96,15 +62,45 @@
       </div>
 
 
-        <form name="formShoulders">
+        <!-- <form name="formShoulders">
           <h3>Choose Shoulders</h3>
            Green F<input type="radio" name="myradio" value="Green-F" />
           Green M<input type="radio" name="myradio" value="Green-M" />
           Grey F<input type="radio" name="myradio" value="Grey-F" />
           Grey M<input type="radio" name="myradio" value="Grey-M" />
-        </form>
+        </form> -->
 
-        <form name="formHaircolor">
+        <div class="select-shoulders">
+          <h3>Choose shoulders</h3>
+          <select id="formShoulders">
+              <option type="text" name="myoption" value="chooseShoulders">Choose shoulders</option>
+              <option type="text" name="myoption" value="Green-F">Green F</option>
+              <option type="text" name="myoption" value="Green-M">Green M</option>
+              <option type="text" name="myoption" value="Grey-F">Grey F</option>
+              <option type="text" name="myoption" value="Grey-M">Grey M</option>
+          </select>
+      </div>
+
+
+        <div class="select-hair-style">
+          <h3>Choose a hair style</h3>
+          <select id="formHair">
+              <option type="text" name="myoption" value="chooseHS">Choose hair style</option>
+              <option type="text" name="myoption" value="Nohair">No hair</option>
+              <option type="text" name="myoption" value="Quiff">Quiff</option>
+              <option type="text" name="myoption" value="Bob">Bob</option>
+              <option type="text" name="myoption" value="Bun">Bun</option>
+              <option type="text" name="myoption" value="Pony">Pony</option>
+              <option type="text" name="myoption" value="Crew">Crew</option>
+              <option type="text" name="myoption" value="CurlyShort">Curly short</option>
+              <option type="text" name="myoption" value="CurlyLong">Curly long</option>
+              <option type="text" name="myoption" value="combOver">Comb over</option>
+              <option type="text" name="myoption" value="straightMedium">Straight medium</option>
+              <option type="text" name="myoption" value="straight Long">Straight long</option>
+          </select>
+      </div>
+
+        <!-- <form name="formHaircolor">
           <h3>Choose a hair colour</h3>
           Blonde <input type="radio" name="myradio" value="blonde" />
           Brown <input type="radio" name="myradio" value="brown" />
@@ -113,9 +109,25 @@
           Blue <input type="radio" name="myradio" value="blue" />
           Pink <input type="radio" name="myradio" value="pink" />
           Grey <input type="radio" name="myradio" value="grey" />
-        </form>
+        </form> -->
 
-        <form name="formHair">
+        <div class="select-hair-c">
+          <h3>Choose an hair colour</h3>
+          <select id="formHaircolor">
+              <option type="text" name="myoption" value="chooseHC">Choose hair colour</option>
+              <option type="text" name="myoption" value="Blonde">Blonde</option>
+              <option type="text" name="myoption" value="Brown">Brown</option>
+              <option type="text" name="myoption" value="Red">Red</option>
+              <option type="text" name="myoption" value="Black">Black</option>
+              <option type="text" name="myoption" value="Blue">Blue</option>
+              <option type="text" name="myoption" value="Pink">Pink</option>
+              <option type="text" name="myoption" value="Grey">Grey</option>
+          </select>
+      </div>
+
+
+
+        <!-- <form name="formHair">
           <h3>Choose a hair style</h3>
           No hair <input type="radio" name="myradio" value="Nohair" />
           Quiff <input type="radio" name="myradio" value="Quiff" />
@@ -128,9 +140,9 @@
           Comb Over <input type="radio" name="myradio" value="combOver" />
           Straight Medium <input type="radio" name="myradio" value="straightMedium" />
           Straight Long <input type="radio" name="myradio" value="straightLong" />
-        </form>
+        </form> -->
 
-        <form name="eyebrowColor">
+        <!-- <form name="eyebrowColor">
           <h3>Choose a eye brow colour</h3>
           Blonde <input type="radio" name="myradio" value="blondeEyebrows" />
           Brown <input type="radio" name="myradio" value="brownEyebrows" />
@@ -139,9 +151,43 @@
           Blue <input type="radio" name="myradio" value="blueEyebrows" />
           Pink <input type="radio" name="myradio" value="pinkEyebrows" />
           Grey <input type="radio" name="myradio" value="greyEyebrows" />
-        </form>
+        </form> -->
 
-        <form name="formBeard">
+        <div class="select-eyebrows">
+          <h3>Choose eye brows</h3>
+          <select id="eyebrowColor">
+              <option type="text" name="myoption" value="chooseEB">Choose eye brows</option>
+              <option type="text" name="myoption" value="blondeEyebrows">Blonde</option>
+              <option type="text" name="myoption" value="brownEyebrows">Brown</option>
+              <option type="text" name="myoption" value="redEyebrows">Red</option>
+              <option type="text" name="myoption" value="Black">Black</option>
+              <option type="text" name="myoption" value="blueEyebrows">Blue</option>
+              <option type="text" name="myoption" value="pinkEyebrows">Pink</option>
+              <option type="text" name="myoption" value="greyEyebrows">Grey</option>
+          </select>
+      </div>
+
+
+        <div class="select-beard">
+          <h3>Choose a beard</h3>
+          <select id="formBeard">
+              <option type="text" name="myoption" value="chooseEB">Choose beard</option>
+              <option type="text" name="myoption" value="noBeard">No beard</option>
+              <option type="text" name="myoption" value="shortBeardBlonde">Short Blonde</option>
+              <option type="text" name="myoption" value="shortBeardBrown">Short Brown</option>
+              <option type="text" name="myoption" value="shortBeardRed">Short Red</option>
+              <option type="text" name="myoption" value="shortBeardBlack">Short Black</option>
+              <option type="text" name="myoption" value="shortBeardGrey">Short Grey</option>
+
+              <option type="text" name="myoption" value="longBeardBlonde">Long Blonde</option>
+              <option type="text" name="myoption" value="longBeardBrown">Long Brown</option>
+              <option type="text" name="myoption" value="longBeardRed">Long Red</option>
+              <option type="text" name="myoption" value="longBeardBlack">Long Black</option>
+              <option type="text" name="myoption" value="longBeardGrey">Long Grey</option>
+          </select>
+      </div>
+
+        <!-- <form name="formBeard">
           <h3>Choose a beard</h3>
            No Beard <input type="radio" name="myradio" value="noBeard" />
            Short Blonde <input type="radio" name="myradio" value="shortBeardBlonde" />
@@ -155,7 +201,7 @@
            Long Red <input type="radio" name="myradio" value="longBeardRed" />
            Long Black <input type="radio" name="myradio" value="longBeardBlack" />
            Long Grey <input type="radio" name="myradio" value="longBeardGrey" />
-        </form>
+        </form> -->
 
 
 
@@ -189,17 +235,14 @@
     <script src="js/canvas.js"></script>
     <script src="js/images.js"></script>
     <script src="js/avatar.js"></script>
-    <script src="js/skin.js"></script>
     <script src="js/bodyshape.js"></script>
-    <script src="js/gender.js"></script>
     <script src="js/eye.js"></script>
-    <script src="js/clothes.js"></script>
     <script src="js/shoulders.js"></script>
     <script src="js/hair.js"></script>
+    <script src="js/hairColor.js"></script>
     <script src="js/eyebows.js"></script>
     <script src="js/beard.js"></script>
     <script src="js/download.js"></script>
-    <script src="js/dropdown.js"></script>
 </body>
 
 </html>

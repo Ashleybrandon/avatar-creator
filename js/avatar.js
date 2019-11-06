@@ -383,33 +383,21 @@ function drawBeard(){
     }
 }
 
-// function drawBeard() {
-//     if (( (shape === "")) && ((hair != "") || (haircolor !== "")) ){
-//         alert("Bodystyle and gender must be chosen before hair.")
-   
-//     }
-//     else
-//     {
-//         if (hair === "Nohair") {
-        
+
+
+
+// function drawClothing() {
+//     g = clothing[gender]
+//     if (g != undefined) {
+//         s = g[shape]
+//         if (s != undefined) {
+//             img = s[clothes]
+//             if (img != undefined) {
+//                 drawImage(img)
+//             }
 //         }
+//     }
 // }
-
-
-//copy nose logic above for accessories
-
-function drawClothing() {
-    g = clothing[gender]
-    if (g != undefined) {
-        s = g[shape]
-        if (s != undefined) {
-            img = s[clothes]
-            if (img != undefined) {
-                drawImage(img)
-            }
-        }
-    }
-}
 
 
 
@@ -421,7 +409,7 @@ function drawAvatar() {
     drawHair()
     drawEyebrows()
     drawBeard()
-    drawClothing()
+    // drawClothing()
 
     //add facial hair and accessories
 }

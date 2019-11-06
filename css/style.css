@@ -9,6 +9,14 @@
       padding: 0;
   }
 
+  select {
+    background-color: #fff !important;
+    min-width: 200px;
+    height: 32px;
+    border: 1px solid #A0A1A2;
+    font-size: 14px;
+  }
+
   .container {
     width: 100%;
     /* text-align: center; */
@@ -207,6 +215,13 @@ canvas#avatarCanvas {
 
   canvas#avatarCanvas {
     margin-top: initial;
+}
+
+#download {
+  background-color: #BCC811;
+  font-weight: bold;
+  max-width: 200px;
+  margin: 2rem auto;
 }
 
 }
