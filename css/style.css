@@ -4,6 +4,10 @@
       box-sizing: border-box;
   }
 
+  *:focus {
+    outline:0!important;
+  }
+
   html, body {
       margin: 0;
       padding: 0;
@@ -95,25 +99,11 @@ nav .container .row .col-6.logo-col {
     background-color: #96A705 !important;
 }
 
-/* .form--section {
-    padding: 1rem;
-} */
 
 .testClass {
   color: #414446 !important;
 }
-/* .testClass #download {
-  background-color: #FFE100 !important;
-  color: #414446;
-  font-weight: bold;
-}
 
-.testClass {
-  color: #414446 !important;
-  background-image: linear-gradient(-395deg, #e27f9e 55%, #9FB9E9 5%);
-  min-height: 1430px;
-  overflow: hidden;
-} */
 
 body.testClass .container .row .col-6 {
   padding: 0 2.5rem;

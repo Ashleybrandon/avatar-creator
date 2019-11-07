@@ -1,7 +1,7 @@
 
 function drawBodyshape() {
         if (shape === "Triangle") {
-             drawImage(femaleTriangle) + drawImage(straightLongBrown);
+             drawImage(femaleTriangle);
         }
         else if (shape === "Pear") {
             drawImage(femalePear)
@@ -23,8 +23,8 @@ function drawBodyshape() {
 
 function drawEyes() {
     if ( ( (shape === "")) && (eye !== "") ){
-        alert("Skin colour and gender must be chosen before eyes.")
-        //eye = ""
+        alert("Choose skin before eyes.")
+        
     }
     else{
         if (eye === "Blue") {
@@ -52,7 +52,7 @@ function drawEyes() {
 
 function drawShoulders(){
     if ( ((shape === "")) && (eye !== "") ){
-        alert("Bodystyle and gender must be chosen before Shoulders.")
+        alert("Choose skin and eyes before shoulders")
        // nose = ""
     }
     else{
@@ -438,5 +438,48 @@ function drawAvatar() {
 function drawImage(image) {
     ctx.drawImage(image, 0, 0, canvas.width, canvas.height)
 } 
+
+
+var canvas = document.getElementById("avatarCanvas");
+var dlButton = document.getElementById("download");
+
+var download_img = function (el) {
+    var image = canvas.toDataURL("image/png");
+    el.href = image;
+};
+
+
+
+//below is the start of an attempt to write a loop to check if a form option is empty before download
+
+// var stopSearch = document.getElementById("formeyes").options;
+
+// for (var i = 0; i < stopSearch.length; i++) { 
+//     stopSearch[i] = function(el) {
+//         if (eye === "") {
+//             console.log('stop loop works')
+//             e.preventDefault();
+//          } 
+//     }
+// }
+
+
+//download avatar png
+
+
+document.getElementById("download").addEventListener('click', function(e){
+    if ( shape === "" || eye === "" || shoulders === "" ) {
+
+
+       alert('complete your avatar before downloading');
+       e.preventDefault();
+    } else {
+
+        download_img(this);
+    }
+        
+    });
+
+
 
 
