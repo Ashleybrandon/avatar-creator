@@ -15,5 +15,7 @@ var radios = document.getElementById("formBeard");
 radios.addEventListener("change", function(event) {
     beard = event.target.value;
     // console.log(optionEye);
+    
     drawAvatar();
 });
+

@@ -28,5 +28,9 @@ var radios = document.getElementById("formShape");
 radios.addEventListener("change", function(event) {
     shape = event.target.value;
     // console.log(optionEye);
+    
     drawAvatar();
+    drawImage(longBeardBrown)
 });
+
+//if an option is selected draw the item

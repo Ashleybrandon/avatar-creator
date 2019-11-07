@@ -50,7 +50,7 @@ function drawEyes() {
 //copy the hair logic above to do facial hair
 
 function drawShoulders(){
-    if ( ((shape === "")) && (nose !== "") ){
+    if ( ((shape === "")) && (eye !== "") ){
         alert("Bodystyle and gender must be chosen before Shoulders.")
        // nose = ""
     }
@@ -384,8 +384,6 @@ function drawBeard(){
 }
 
 
-
-
 // function drawClothing() {
 //     g = clothing[gender]
 //     if (g != undefined) {
@@ -403,15 +401,13 @@ function drawBeard(){
 
 function drawAvatar() {
     ctx.clearRect(0, 0, canvas.width, canvas.height)
+    
     drawBodyshape()
     drawEyes()
     drawShoulders()
     drawHair()
     drawEyebrows()
     drawBeard()
-    // drawClothing()
-
-    //add facial hair and accessories
 }
 
 function drawImage(image) {
