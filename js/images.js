@@ -337,7 +337,6 @@ shortBeardRed.src = "img/avatar-parts/Facial-Hair/short-beard-red.svg"
 var shortBeardGrey = new Image()
 shortBeardGrey.src = "img/avatar-parts/Facial-Hair/short-beard-grey.svg"
 
-
 var longBeardBlonde = new Image()
 longBeardBlonde.src = "img/avatar-parts/Facial-Hair/long-beard-blonde.svg"
 
