@@ -326,16 +326,16 @@ var shortBeardBlonde = new Image()
 shortBeardBlonde.src = "img/avatar-parts/Facial-Hair/short-beard-blonde.svg"
 
 var shortBeardBrown = new Image()
-shortBeardBrown.src = "img/avatar-parts/Facial-Hair/short-beard-Brown.svg"
+shortBeardBrown.src = "img/avatar-parts/Facial-Hair/short-beard-brown.svg"
 
 var shortBeardBlack = new Image()
-shortBeardBlack.src = "img/avatar-parts/Facial-Hair/short-beard-Black.svg"
+shortBeardBlack.src = "img/avatar-parts/Facial-Hair/short-beard-black.svg"
 
 var shortBeardRed = new Image()
-shortBeardRed.src = "img/avatar-parts/Facial-Hair/short-beard-Red.svg"
+shortBeardRed.src = "img/avatar-parts/Facial-Hair/short-beard-red.svg"
 
 var shortBeardGrey = new Image()
-shortBeardGrey.src = "img/avatar-parts/Facial-Hair/short-beard-Grey.svg"
+shortBeardGrey.src = "img/avatar-parts/Facial-Hair/short-beard-grey.svg"
 
 
 var longBeardBlonde = new Image()
