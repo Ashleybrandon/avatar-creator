@@ -84,13 +84,41 @@ drawAvatar();
 //loads accessories
 
 var accessories = ""
-
+var checkBox = document.getElementsByName("myCheck");
 var radios = document.getElementById("formAccessory");
+
+var byValue = document.querySelectorAll('input[value="Headset"]');
+
 
 radios.addEventListener("change", function(event) {
     accessories = event.target.value;
 
+if (!byValue.checked === true){
+    // text.style.display = "block";
+    console.log("checked!!")
+    drawAvatar();
+  } else if (byValue.checked === true) {
+    // text.style.display = "none";
+    console.log("unchecked!")
 
-drawAvatar();
-});
+  }
+
+    });
+
+    console.log(byValue);
+
+
+
+//Accessory checkboxes
+
+// var accessories = ""
+
+// var radios = document.forms["formAccessories"].elements["myCheck"];
+// for (var i = 0; i < radios.length; i++) { 
+//     radios[i].onclick = function() {
+//         accessories = this.value
+//         drawAvatar()
+//     }
+// }
+
 

@@ -384,25 +384,25 @@ function drawAccessories(){
     if(accessories === "eyeLashes"){
         drawImage(eyeLashes)
     }
-    else if(accessories === "freckles"){
+    if(accessories === "freckles"){
         drawImage(freckles)
     }
-    else if(accessories === "glassesRound"){
+    if(accessories === "glassesRound"){
         drawImage(glassesRound)
     }
-    else if(accessories === "glassesSquare"){
+    if(accessories === "glassesSquare"){
         drawImage(glassesSquare)
     }
-    else if(accessories === "goldEarrings"){
+    if(accessories === "goldEarrings"){
         drawImage(goldEarrings)
     }
-    else if(accessories === "silverEarrings"){
+    if(accessories === "silverEarrings"){
         drawImage(silverEarrings)
     }
-    else if(accessories === "hijab"){
+    if(accessories === "hijab"){
         drawImage(hijab)
     }
-    else if(accessories === "Headset"){
+    if(accessories === "Headset"){
         drawImage(Headset)
     }
 }
