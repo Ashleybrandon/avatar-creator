@@ -380,33 +380,70 @@ function drawBeard(){
     }
 }
 
+
+function drawGlasses(){
+    if(glasses === "glassesRound"){
+        drawImage(glassesRound)
+    }
+    else if(glasses === "glassesSquare"){
+        drawImage(glassesSquare)
+    }
+}
+
+
 function drawAccessories(){
     if(accessories === "eyeLashes"){
         drawImage(eyeLashes)
     }
-    if(accessories === "freckles"){
+    else if(accessories === "freckles"){
         drawImage(freckles)
     }
-    if(accessories === "glassesRound"){
+    else if(accessories === "glassesRound"){
         drawImage(glassesRound)
     }
-    if(accessories === "glassesSquare"){
+    else if(accessories === "glassesSquare"){
         drawImage(glassesSquare)
     }
-    if(accessories === "goldEarrings"){
+    else if(accessories === "goldEarrings"){
         drawImage(goldEarrings)
     }
-    if(accessories === "silverEarrings"){
+    else if(accessories === "silverEarrings"){
         drawImage(silverEarrings)
     }
-    if(accessories === "hijab"){
+    else if(accessories === "hijab"){
         drawImage(hijab)
     }
-    if(accessories === "Headset"){
+    else if(accessories === "Headset"){
         drawImage(Headset)
     }
 }
 
+function drawAccessoriesTwo(){
+    if(accessoriesTwo === "eyeLashesTwo"){
+        drawImage(eyeLashes)
+    }
+    else if(accessoriesTwo === "frecklesTwo"){
+        drawImage(freckles)
+    }
+    else if(accessoriesTwo === "glassesRoundTwo"){
+        drawImage(glassesRound)
+    }
+    else if(accessoriesTwo === "glassesSquareTwo"){
+        drawImage(glassesSquare)
+    }
+    else if(accessoriesTwo === "goldEarringsTwo"){
+        drawImage(goldEarrings)
+    }
+    else if(accessoriesTwo === "silverEarringsTwo"){
+        drawImage(silverEarrings)
+    }
+    else if(accessoriesTwo === "hijabTwo"){
+        drawImage(hijab)
+    }
+    else if(accessoriesTwo === "HeadsetTwo"){
+        drawImage(Headset)
+    }
+}
 
 // function drawClothing() {
 //     g = clothing[gender]
@@ -433,6 +470,8 @@ function drawAvatar() {
     drawEyebrows()
     drawBeard()
     drawAccessories()
+    drawAccessoriesTwo()
+    drawGlasses()
 }
 
 function drawImage(image) {
@@ -463,13 +502,11 @@ var download_img = function (el) {
 //     }
 // }
 
-
 //download avatar png
 
 
 document.getElementById("download").addEventListener('click', function(e){
     if ( shape === "" || eye === "" || shoulders === "" ) {
-
 
        alert('complete your avatar before downloading');
        e.preventDefault();

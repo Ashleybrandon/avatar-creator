@@ -353,6 +353,16 @@ var longBeardGrey = new Image()
 longBeardGrey.src = "img/avatar-parts/Facial-Hair/long-beard-grey.svg"
 
 
+//glasses
+
+var glassesRound = new Image()
+glassesRound.src = "img/avatar-parts/Accessories/Glasses-Round.svg"
+
+var glassesSquare = new Image()
+glassesSquare.src = "img/avatar-parts/Accessories/Glasses-Square.svg"
+
+
+
 
 //accessories
 
@@ -361,12 +371,6 @@ eyeLashes.src = "img/avatar-parts/Accessories/Eyelashes.svg"
 
 var freckles = new Image()
 freckles.src = "img/avatar-parts/Accessories/Freckles.svg"
-
-var glassesRound = new Image()
-glassesRound.src = "img/avatar-parts/Accessories/Glasses-Round.svg"
-
-var glassesSquare = new Image()
-glassesSquare.src = "img/avatar-parts/Accessories/Glasses-Square.svg"
 
 var goldEarrings = new Image()
 goldEarrings.src = "img/avatar-parts/Accessories/Gold-Earrings.svg"
@@ -379,4 +383,25 @@ hijab.src = "img/avatar-parts/Accessories/Hijab.svg"
 
 var Headset = new Image()
 Headset.src = "img/avatar-parts/Accessories/Headset.svg"
+
+
+//accessories two
+
+var eyeLashesTwo = new Image()
+eyeLashesTwo.src = "img/avatar-parts/Accessories/Eyelashes.svg"
+
+var frecklesTwo = new Image()
+frecklesTwo.src = "img/avatar-parts/Accessories/Freckles.svg"
+
+var goldEarringsTwo = new Image()
+goldEarringsTwo.src = "img/avatar-parts/Accessories/Gold-Earrings.svg"
+
+var silverEarringsTwo = new Image()
+silverEarringsTwo.src = "img/avatar-parts/Accessories/Silver-Earrings.svg"
+
+var hijabTwo = new Image()
+hijabTwo.src = "img/avatar-parts/Accessories/Hijab.svg"
+
+var HeadsetTwo = new Image()
+HeadsetTwo.src = "img/avatar-parts/Accessories/Headset.svg"
 

@@ -176,11 +176,14 @@ canvas#avatarCanvas {
   text-align: right;
 }
 
+select#formAccessoriesTwo {
+  margin-top: 1.75rem;
+}
+
 
 /* Checkbox styles */
+/* 
 
-
-/* Customize the label (the container) */
 .checkLabel {
   display: inline-block;
   position: relative;
@@ -194,7 +197,6 @@ canvas#avatarCanvas {
   user-select: none;
 }
 
-/* Hide the browser's default checkbox */
 .checkLabel input {
   position: absolute;
   opacity: 0;
@@ -203,7 +205,6 @@ canvas#avatarCanvas {
   width: 0;
 }
 
-/* Create a custom checkbox */
 .checkmark {
   position: absolute;
   top: 0;
@@ -213,29 +214,24 @@ canvas#avatarCanvas {
   background-color: #E8E8E8;
 }
 
-/* On mouse-over, add a grey background color */
 .checkLabel:hover input ~ .checkmark {
   background-color: #E8E8E8;
 }
 
-/* When the checkbox is checked, add a blue background */
 .checkLabel input:checked ~ .checkmark {
   background-color: #BCC811;
 }
 
-/* Create the checkmark/indicator (hidden when not checked) */
 .checkmark:after {
   content: "";
   position: absolute;
   display: none;
 }
 
-/* Show the checkmark when checked */
 .checkLabel input:checked ~ .checkmark:after {
   display: block;
 }
 
-/* Style the checkmark/indicator */
 .checkLabel .checkmark:after {
   left: 9px;
   top: 5px;
@@ -246,7 +242,7 @@ canvas#avatarCanvas {
   -webkit-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   transform: rotate(45deg);
-}
+} */
 
 @media(max-width: 720px) {
 

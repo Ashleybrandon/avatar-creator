@@ -81,44 +81,33 @@ drawAvatar();
 });
 
 
+//loads glasses
+
+var glasses = ""
+
+var radios = document.getElementById("formGlasses");
+
+radios.addEventListener("change", function(event) {
+    glasses = event.target.value;
+    drawAvatar();
+});
+
 //loads accessories
 
 var accessories = ""
-var checkBox = document.getElementsByName("myCheck");
-var radios = document.getElementById("formAccessory");
 
-var byValue = document.querySelectorAll('input[value="Headset"]');
-
+var radios = document.getElementById("formAccessoriesOne");
 
 radios.addEventListener("change", function(event) {
     accessories = event.target.value;
-
-if (!byValue.checked === true){
-    // text.style.display = "block";
-    console.log("checked!!")
     drawAvatar();
-  } else if (byValue.checked === true) {
-    // text.style.display = "none";
-    console.log("unchecked!")
+});
 
-  }
+var accessoriesTwo = ""
 
-    });
+var radios = document.getElementById("formAccessoriesTwo");
 
-    console.log(byValue);
-
-
-
-//Accessory checkboxes
-
-// var accessories = ""
-
-// var radios = document.forms["formAccessories"].elements["myCheck"];
-// for (var i = 0; i < radios.length; i++) { 
-//     radios[i].onclick = function() {
-//         accessories = this.value
-//         drawAvatar()
-//     }
-// }
-
-
+radios.addEventListener("change", function(event) {
+    accessoriesTwo = event.target.value;
+    drawAvatar();
+});
