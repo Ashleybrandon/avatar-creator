@@ -191,25 +191,25 @@ curlyShortGrey.src = "img/avatar-parts/Hair/curly-short-grey.svg"
 
 
 var curlyLongBlonde = new Image()
-curlyLongBlonde.src = "img/avatar-parts/Hair/curly-Long-blonde.svg"
+curlyLongBlonde.src = "img/avatar-parts/Hair/curly-long-blonde.svg"
 
 var curlyLongBrown = new Image()
-curlyLongBrown.src = "img/avatar-parts/Hair/curly-Long-brown.svg"
+curlyLongBrown.src = "img/avatar-parts/Hair/curly-long-brown.svg"
 
 var curlyLongBlack = new Image()
-curlyLongBlack.src = "img/avatar-parts/Hair/curly-Long-black.svg"
+curlyLongBlack.src = "img/avatar-parts/Hair/curly-long-black.svg"
 
 var curlyLongBlue = new Image()
-curlyLongBlue.src = "img/avatar-parts/Hair/curly-Long-blue.svg"
+curlyLongBlue.src = "img/avatar-parts/Hair/curly-long-blue.svg"
 
 var curlyLongRed = new Image()
-curlyLongRed.src = "img/avatar-parts/Hair/curly-Long-red.svg"
+curlyLongRed.src = "img/avatar-parts/Hair/curly-long-red.svg"
 
 var curlyLongPink = new Image()
-curlyLongPink.src = "img/avatar-parts/Hair/curly-Long-pink.svg"
+curlyLongPink.src = "img/avatar-parts/Hair/curly-long-pink.svg"
 
 var curlyLongGrey = new Image()
-curlyLongGrey.src = "img/avatar-parts/Hair/curly-Long-grey.svg"
+curlyLongGrey.src = "img/avatar-parts/Hair/curly-long-grey.svg"
 
 
 var shortSidesLongTopBlonde = new Image()
@@ -299,25 +299,25 @@ shouldersGreyM.src = "img/avatar-parts/Shoulders-M_F/Shoulders-M-Grey.svg"
 //eyebrows
 
 var eyebrowsBlonde = new Image()
-eyebrowsBlonde.src = "img/avatar-parts/eyebrows/Eyebrows-Blonde.svg"
+eyebrowsBlonde.src = "img/avatar-parts/Eyebrows/Eyebrows-Blonde.svg"
 
 var eyebrowsBrown = new Image()
-eyebrowsBrown.src = "img/avatar-parts/eyebrows/Eyebrows-Brown.svg"
+eyebrowsBrown.src = "img/avatar-parts/Eyebrows/Eyebrows-Brown.svg"
 
 var eyebrowsBlack = new Image()
-eyebrowsBlack.src = "img/avatar-parts/eyebrows/Eyebrows-Black.svg"
+eyebrowsBlack.src = "img/avatar-parts/Eyebrows/Eyebrows-Black.svg"
 
 var eyebrowsBlue = new Image()
-eyebrowsBlue.src = "img/avatar-parts/eyebrows/Eyebrows-Blue.svg"
+eyebrowsBlue.src = "img/avatar-parts/Eyebrows/Eyebrows-Blue.svg"
 
 var eyebrowsRed = new Image()
-eyebrowsRed.src = "img/avatar-parts/eyebrows/Eyebrows-Red.svg"
+eyebrowsRed.src = "img/avatar-parts/Eyebrows/Eyebrows-Red.svg"
 
 var eyebrowsPink = new Image()
-eyebrowsPink.src = "img/avatar-parts/eyebrows/Eyebrows-Pink.svg"
+eyebrowsPink.src = "img/avatar-parts/Eyebrows/Eyebrows-Pink.svg"
 
 var eyebrowsGrey = new Image()
-eyebrowsGrey.src = "img/avatar-parts/eyebrows/Eyebrows-Grey.svg"
+eyebrowsGrey.src = "img/avatar-parts/Eyebrows/Eyebrows-Grey.svg"
 
 
 //beards
@@ -342,16 +342,16 @@ var longBeardBlonde = new Image()
 longBeardBlonde.src = "img/avatar-parts/Facial-Hair/long-beard-blonde.svg"
 
 var longBeardBrown = new Image()
-longBeardBrown.src = "img/avatar-parts/Facial-Hair/long-beard-Brown.svg"
+longBeardBrown.src = "img/avatar-parts/Facial-Hair/long-beard-brown.svg"
 
 var longBeardBlack = new Image()
-longBeardBlack.src = "img/avatar-parts/Facial-Hair/long-beard-Black.svg"
+longBeardBlack.src = "img/avatar-parts/Facial-Hair/long-beard-black.svg"
 
 var longBeardRed = new Image()
-longBeardRed.src = "img/avatar-parts/Facial-Hair/long-beard-Red.svg"
+longBeardRed.src = "img/avatar-parts/Facial-Hair/long-beard-red.svg"
 
 var longBeardGrey = new Image()
-longBeardGrey.src = "img/avatar-parts/Facial-Hair/long-beard-Grey.svg"
+longBeardGrey.src = "img/avatar-parts/Facial-Hair/long-beard-grey.svg"
 
 
 
