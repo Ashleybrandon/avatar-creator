@@ -1,11 +1,11 @@
 //loads skin/face
 
-var shape = "";
+var skin = "";
 
-var radios = document.getElementById("formShape");
+var optionOne = document.getElementById("formSkin");
 
-radios.addEventListener("change", function(event) {
-    shape = event.target.value;
+optionOne.addEventListener("change", function(event) {
+    skin = event.target.value;
     drawAvatar();
 });
 
@@ -14,33 +14,32 @@ radios.addEventListener("change", function(event) {
 
 var eye = ""
 
-var radios = document.getElementById("formeyes");
+var optionTwo = document.getElementById("formeyes");
 
-radios.addEventListener("change", function(event) {
+optionTwo.addEventListener("change", function(event) {
     eye = event.target.value;
     drawAvatar();
+    console.log('eye event listener');
 });
 
 //loads shoulders
 
 var shoulders = ""
 
-var radios = document.getElementById("formShoulders");
+var optionThree = document.getElementById("formShoulders");
 
-radios.addEventListener("change", function(event) {
+optionThree.addEventListener("change", function(event) {
     shoulders = event.target.value;
     drawAvatar();
 });
-
-
 
 //loads eyebrows
 
 var eyebrows = ""
 
-var radios = document.getElementById("eyebrowColor");
+var optionFour = document.getElementById("eyebrowColor");
 
-radios.addEventListener("change", function(event) {
+optionFour.addEventListener("change", function(event) {
     eyebrows = event.target.value;
     drawAvatar();
 });
@@ -49,9 +48,9 @@ radios.addEventListener("change", function(event) {
 
 var beard = ""
 
-var radios = document.getElementById("formBeard");
+var optionFive = document.getElementById("formBeard");
 
-radios.addEventListener("change", function(event) {
+optionFive.addEventListener("change", function(event) {
     beard = event.target.value;
     drawAvatar();
 });
@@ -61,9 +60,9 @@ radios.addEventListener("change", function(event) {
 
 var hair = ""
 
-var radios = document.getElementById("formHair");
+var optionSix = document.getElementById("formHair");
 
-radios.addEventListener("change", function(event) {
+optionSix.addEventListener("change", function(event) {
     hair = event.target.value;
     drawAvatar();
 });
@@ -71,9 +70,9 @@ radios.addEventListener("change", function(event) {
 
 var haircolor = ""
 
-var radios = document.getElementById("formHaircolor");
+var optionSeven = document.getElementById("formHaircolor");
 
-radios.addEventListener("change", function(event) {
+optionSeven.addEventListener("change", function(event) {
     haircolor = event.target.value;
 
 
@@ -85,9 +84,9 @@ drawAvatar();
 
 var glasses = ""
 
-var radios = document.getElementById("formGlasses");
+var option = document.getElementById("formGlasses");
 
-radios.addEventListener("change", function(event) {
+option.addEventListener("change", function(event) {
     glasses = event.target.value;
     drawAvatar();
 });
@@ -96,18 +95,18 @@ radios.addEventListener("change", function(event) {
 
 var accessories = ""
 
-var radios = document.getElementById("formAccessoriesOne");
+var option = document.getElementById("formAccessoriesOne");
 
-radios.addEventListener("change", function(event) {
+option.addEventListener("change", function(event) {
     accessories = event.target.value;
     drawAvatar();
 });
 
 var accessoriesTwo = ""
 
-var radios = document.getElementById("formAccessoriesTwo");
+var option = document.getElementById("formAccessoriesTwo");
 
-radios.addEventListener("change", function(event) {
+option.addEventListener("change", function(event) {
     accessoriesTwo = event.target.value;
     drawAvatar();
 });

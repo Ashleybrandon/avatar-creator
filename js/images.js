@@ -1,37 +1,25 @@
-//skin
 
-var skin1 = new Image()
-skin1.src = "img/avatar-parts/Skin/Skin-1.svg"
+// Skin colors
+var colorOne = new Image()
+colorOne.src = "img/avatar-parts/Skin/Skin-1.svg"
 
-var skin2 = new Image()
-skin1.src = "img/avatar-parts/Skin/Skin-2.svg"
+var colorTwo = new Image()
+colorTwo.src = "img/avatar-parts/Skin/Skin-2.svg"
 
-var skin3 = new Image()
-skin1.src = "img/avatar-parts/Skin/Skin-3.svg"
+var colorThree = new Image()
+colorThree.src = "img/avatar-parts/Skin/Skin-3.svg"
 
-var skin4 = new Image()
-skin1.src = "img/avatar-parts/Skin/Skin-4.svg"
+var colorFour = new Image()
+colorFour.src = "img/avatar-parts/Skin/Skin-4.svg"
 
-var skin5 = new Image()
-skin1.src = "img/avatar-parts/Skin/Skin-5.svg"
+var colorFive = new Image()
+colorFive.src = "img/avatar-parts/Skin/Skin-5.svg"
 
 
 
-// Female avatar body types
-var femaleApple = new Image()
-femaleApple.src = "img/avatar-parts/Skin/Skin-1.svg"
 
-var femaleRectangle = new Image()
-femaleRectangle.src = "img/avatar-parts/Skin/Skin-2.svg"
 
-var femaleHourglass = new Image()
-femaleHourglass.src = "img/avatar-parts/Skin/Skin-3.svg"
-
-var femalePear = new Image()
-femalePear.src = "img/avatar-parts/Skin/Skin-4.svg"
-
-var femaleTriangle = new Image()
-femaleTriangle.src = "img/avatar-parts/Skin/Skin-5.svg"
+//eyes
 
 var eyeBlue = new Image()
 eyeBlue.src = "img/avatar-parts/Eyes/Eyes-Blue.svg"
@@ -55,6 +43,9 @@ eyeDarkBrown.src = "img/avatar-parts/Eyes/Eyes-Dark-Brown.svg"
 
 //Hair
 
+
+var noHair = new Image()
+noHair.src = "img/avatar-parts/Hair/no-hair.svg"
 
 var quiffShortBlonde = new Image()
 quiffShortBlonde.src = "img/avatar-parts/Hair/quiff-short-blonde.svg"

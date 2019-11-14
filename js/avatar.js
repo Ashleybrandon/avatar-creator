@@ -1,19 +1,20 @@
 
-function drawBodyshape() {
-        if (shape === "Triangle") {
-             drawImage(femaleTriangle);
+
+function drawSkin() {
+        if (skin === "colorOne") {
+             drawImage(colorOne);
         }
-        else if (shape === "Pear") {
-            drawImage(femalePear)
+        else if (skin === "colorTwo") {
+            drawImage(colorTwo)
         }
-        else if (shape === "Apple") {
-            drawImage(femaleApple)
+        else if (skin === "colorThree") {
+            drawImage(colorThree)
         }
-        else if (shape === "Rectangle") {
-            drawImage(femaleRectangle)
+        else if (skin === "colorFour") {
+            drawImage(colorFour)
         }
-        else if (shape === "Hourglass") {
-            drawImage(femaleHourglass)
+        else if (skin === "colorFive") {
+            drawImage(colorFive)
         }
         else {
             ctx.clearRect(0, 0, canvas.width, canvas.height)
@@ -21,10 +22,11 @@ function drawBodyshape() {
   
 }
 
-function drawEyes() {
-    if ( ( (shape === "")) && (eye !== "") ){
-        alert("Choose skin before eyes.")
-        
+function drawEyes(e) {
+
+    if ( skin === "" ){
+        alert("Choose skin colour first")
+        e.stopPropagation();
     }
     else{
         if (eye === "Blue") {
@@ -48,12 +50,11 @@ function drawEyes() {
     }
 }
 
-//copy the hair logic above to do facial hair
 
-function drawShoulders(){
-    if ( ((shape === "")) && (eye !== "") ){
-        alert("Choose skin and eyes before shoulders")
-       // nose = ""
+function drawShoulders(e){
+    if ((skin === "" && shoulders != "" ) ||  (eye === "" && shoulders != "" ) ){
+        alert("Choose skin and eye colour first")
+        e.stopPropagation();
     }
     else{
         if(shoulders === "Green-F"){
@@ -73,6 +74,56 @@ function drawShoulders(){
 
 
 function drawHair() {
+
+    if ( skin === "" && eye === "" ){
+        alert("Choose skin and eye colour first")
+       
+    } else {
+
+        if (hair === "noHair") {
+            drawImage(noHair);
+        }
+        
+        else if (hair === "Quiff") {
+            drawImage(quiffShortBlack);
+        }
+        else if (hair === "Bob") {
+            drawImage(bobBlack);
+        }
+        else if (hair === "Bun") {
+            drawImage(bunBlack);
+        }
+        else if (hair === "Pony") {
+            drawImage(ponyBlack);
+        }
+        else if (hair === "Crew") {
+            drawImage(crewBlack);
+        }
+        else if (hair === "CurlyShort") {
+            drawImage(curlyShortBlack);
+        }
+        else if (hair === "CurlyLong") {
+            drawImage(curlyLongBlack);
+        }
+        else if (hair === "combOver") {
+            drawImage(shortSidesLongTopBlack);
+        }
+        else if (hair === "straightMedium") {
+            drawImage(straightMediumBlack);
+        }
+        else if (hair === "straightMedium") {
+            drawImage(straightMediumBlack);
+        }
+        else if (hair === "straightLong") {
+            drawImage(straightLongBlack);
+        }
+    }
+
+
+}
+
+function drawHairColor() {
+
     if (haircolor === "Blonde" && hair === "Quiff") {
         drawImage(quiffShortBlonde);
     }
@@ -318,7 +369,6 @@ function drawHair() {
     }
 }
 
-
 function drawEyebrows(){
     if(eyebrows === "blondeEyebrows"){
         drawImage(eyebrowsBlonde)
@@ -445,28 +495,15 @@ function drawAccessoriesTwo(){
     }
 }
 
-// function drawClothing() {
-//     g = clothing[gender]
-//     if (g != undefined) {
-//         s = g[shape]
-//         if (s != undefined) {
-//             img = s[clothes]
-//             if (img != undefined) {
-//                 drawImage(img)
-//             }
-//         }
-//     }
-// }
-
-
 
 function drawAvatar() {
     ctx.clearRect(0, 0, canvas.width, canvas.height)
     
-    drawBodyshape()
+    drawSkin()
     drawEyes()
     drawShoulders()
     drawHair()
+    drawHairColor()
     drawEyebrows()
     drawBeard()
     drawAccessories()
@@ -488,25 +525,8 @@ var download_img = function (el) {
 };
 
 
-
-//below is the start of an attempt to write a loop to check if a form option is empty before download
-
-// var stopSearch = document.getElementById("formeyes").options;
-
-// for (var i = 0; i < stopSearch.length; i++) { 
-//     stopSearch[i] = function(el) {
-//         if (eye === "") {
-//             console.log('stop loop works')
-//             e.preventDefault();
-//          } 
-//     }
-// }
-
-//download avatar png
-
-
 document.getElementById("download").addEventListener('click', function(e){
-    if ( shape === "" || eye === "" || shoulders === "" ) {
+    if ( skin === "" || eye === "" || shoulders === "" ) {
 
        alert('complete your avatar before downloading');
        e.preventDefault();
@@ -519,4 +539,8 @@ document.getElementById("download").addEventListener('click', function(e){
 
 
 
+function clearCanvas(canvas,ctx) {
+    event.preventDefault();
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+}
 
