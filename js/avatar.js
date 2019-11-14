@@ -1,5 +1,3 @@
-
-
 function drawSkin() {
         if (skin === "colorOne") {
              drawImage(colorOne);
@@ -72,55 +70,56 @@ function drawShoulders(e){
     }
 }
 
+//for default black hair
 
-function drawHair() {
+// function drawHair() {
 
-    if ( skin === "" && eye === "" ){
-        alert("Choose skin and eye colour first")
+//     if ( skin === "" && eye === "" ){
+//         alert("Choose skin and eye colour first")
        
-    } else {
+//     } else {
 
-        if (hair === "noHair") {
-            drawImage(noHair);
-        }
+//         if (hair === "noHair") {
+//             drawImage(noHair);
+//         }
         
-        else if (hair === "Quiff") {
-            drawImage(quiffShortBlack);
-        }
-        else if (hair === "Bob") {
-            drawImage(bobBlack);
-        }
-        else if (hair === "Bun") {
-            drawImage(bunBlack);
-        }
-        else if (hair === "Pony") {
-            drawImage(ponyBlack);
-        }
-        else if (hair === "Crew") {
-            drawImage(crewBlack);
-        }
-        else if (hair === "CurlyShort") {
-            drawImage(curlyShortBlack);
-        }
-        else if (hair === "CurlyLong") {
-            drawImage(curlyLongBlack);
-        }
-        else if (hair === "combOver") {
-            drawImage(shortSidesLongTopBlack);
-        }
-        else if (hair === "straightMedium") {
-            drawImage(straightMediumBlack);
-        }
-        else if (hair === "straightMedium") {
-            drawImage(straightMediumBlack);
-        }
-        else if (hair === "straightLong") {
-            drawImage(straightLongBlack);
-        }
-    }
+//         else if (hair === "Quiff") {
+//             drawImage(quiffShortBlack);
+//         }
+//         else if (hair === "Bob") {
+//             drawImage(bobBlack);
+//         }
+//         else if (hair === "Bun") {
+//             drawImage(bunBlack);
+//         }
+//         else if (hair === "Pony") {
+//             drawImage(ponyBlack);
+//         }
+//         else if (hair === "Crew") {
+//             drawImage(crewBlack);
+//         }
+//         else if (hair === "CurlyShort") {
+//             drawImage(curlyShortBlack);
+//         }
+//         else if (hair === "CurlyLong") {
+//             drawImage(curlyLongBlack);
+//         }
+//         else if (hair === "combOver") {
+//             drawImage(shortSidesLongTopBlack);
+//         }
+//         else if (hair === "straightMedium") {
+//             drawImage(straightMediumBlack);
+//         }
+//         else if (hair === "straightMedium") {
+//             drawImage(straightMediumBlack);
+//         }
+//         else if (hair === "straightLong") {
+//             drawImage(straightLongBlack);
+//         }
+//     }
 
 
-}
+// }
 
 function drawHairColor() {
 
@@ -313,7 +312,6 @@ function drawHairColor() {
     else if (haircolor === "Pink" && hair === "Crew") {
         drawImage(crewPink);
     }
-
     else if (haircolor === "Pink" && hair === "CurlyShort") {
         drawImage(curlyShortPink);
     }
@@ -462,6 +460,7 @@ function drawAccessories(){
     }
     else if(accessories === "hijab"){
         drawImage(hijab)
+        drawHairColor(crewBlack)
     }
     else if(accessories === "Headset"){
         drawImage(Headset)
@@ -502,7 +501,7 @@ function drawAvatar() {
     drawSkin()
     drawEyes()
     drawShoulders()
-    drawHair()
+    // drawHair()
     drawHairColor()
     drawEyebrows()
     drawBeard()
