@@ -19,8 +19,8 @@ var optionTwo = document.getElementById("formeyes");
 optionTwo.addEventListener("change", function(event) {
     eye = event.target.value;
     drawAvatar();
-    console.log('eye event listener');
 });
+
 
 //loads shoulders
 
@@ -75,10 +75,8 @@ var optionSeven = document.getElementById("formHaircolor");
 optionSeven.addEventListener("change", function(event) {
     haircolor = event.target.value;
 
-
 drawAvatar();
 });
-
 
 //loads glasses
 
@@ -110,3 +108,7 @@ option.addEventListener("change", function(event) {
     accessoriesTwo = event.target.value;
     drawAvatar();
 });
+
+
+
+

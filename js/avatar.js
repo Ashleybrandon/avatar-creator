@@ -20,34 +20,6 @@ function drawSkin() {
   
 }
 
-function drawEyes(e) {
-
-    if ( skin === "" ){
-        alert("Choose skin colour first")
-        e.stopPropagation();
-    }
-    else{
-        if (eye === "Blue") {
-            drawImage(eyeBlue)
-        }
-        else if(eye === "Green"){
-            drawImage(eyeGreen)
-        }
-        else if(eye === "Black"){
-            drawImage(eyeBlack)
-        }
-        else if(eye === "Grey"){
-            drawImage(eyeGrey)
-        }
-        else if(eye === "LightBrown"){
-            drawImage(eyeLightBrown)
-        }
-        else if(eye === "DarkBrown"){
-            drawImage(eyeDarkBrown)
-        }
-    }
-}
-
 
 function drawShoulders(e){
     if ((skin === "" && shoulders != "" ) ||  (eye === "" && shoulders != "" ) ){
@@ -121,7 +93,7 @@ function drawShoulders(e){
 
 // }
 
-function drawHairColor() {
+function drawHair() {
 
     if (haircolor === "Blonde" && hair === "Quiff") {
         drawImage(quiffShortBlonde);
@@ -494,20 +466,50 @@ function drawAccessoriesTwo(){
     }
 }
 
+function drawEyes(e) {
+
+    if ( skin === "" ){
+        alert("Choose skin colour first")
+        e.stopPropagation();
+    }
+    else{
+        if (eye === "Blue") {
+            drawImage(eyeBlue)
+        }
+        else if(eye === "Green"){
+            drawImage(eyeGreen)
+        }
+        else if(eye === "Black"){
+            drawImage(eyeBlack)
+        }
+        else if(eye === "Grey"){
+            drawImage(eyeGrey)
+        }
+        else if(eye === "LightBrown"){
+            drawImage(eyeLightBrown)
+        }
+        else if(eye === "DarkBrown"){
+            drawImage(eyeDarkBrown)
+        }
+    }
+}
+
 
 function drawAvatar() {
     ctx.clearRect(0, 0, canvas.width, canvas.height)
     
     drawSkin()
-    drawEyes()
+  
     drawShoulders()
-    // drawHair()
-    drawHairColor()
+    drawHair()
+    // drawHairColor()
     drawEyebrows()
     drawBeard()
     drawAccessories()
     drawAccessoriesTwo()
     drawGlasses()
+    drawEyes()
+    
 }
 
 function drawImage(image) {
@@ -526,11 +528,9 @@ var download_img = function (el) {
 
 document.getElementById("download").addEventListener('click', function(e){
     if ( skin === "" || eye === "" || shoulders === "" ) {
-
        alert('complete your avatar before downloading');
        e.preventDefault();
     } else {
-
         download_img(this);
     }
         

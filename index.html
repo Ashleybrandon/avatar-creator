@@ -64,6 +64,19 @@
           </select>
         </div>
 
+        <div class="select-hair-c">
+          <h3>Choose hair colour</h3>
+          <select id="formHaircolor">
+            <option type="text" value="chooseHC">Choose hair colour</option>
+            <option type="text" value="Blonde">Blonde</option>
+            <option type="text" value="Brown">Brown</option>
+            <option type="text" value="Red">Red</option>
+            <option type="text" value="Black">Black</option>
+            <option type="text" value="Blue">Blue</option>
+            <option type="text" value="Pink">Pink</option>
+            <option type="text" value="Grey">Grey</option>
+          </select>
+        </div>
 
         <div class="select-hair-style">
           <h3>Choose hair style</h3>
@@ -80,20 +93,6 @@
             <option type="text" value="combOver">Comb over</option>
             <option type="text" value="straightMedium">Straight medium</option>
             <option type="text" value="straightLong">Straight long</option>
-          </select>
-        </div>
-
-        <div class="select-hair-c">
-          <h3>Choose hair colour</h3>
-          <select id="formHaircolor">
-            <option type="text" value="chooseHC">Choose hair colour</option>
-            <option type="text" value="Blonde">Blonde</option>
-            <option type="text" value="Brown">Brown</option>
-            <option type="text" value="Red">Red</option>
-            <option type="text" value="Black">Black</option>
-            <option type="text" value="Blue">Blue</option>
-            <option type="text" value="Pink">Pink</option>
-            <option type="text" value="Grey">Grey</option>
           </select>
         </div>
 
@@ -123,7 +122,6 @@
             <option type="text" value="shortBeardRed">Short Red</option>
             <option type="text" value="shortBeardBlack">Short Black</option>
             <option type="text" value="shortBeardGrey">Short Grey</option>
-
             <option type="text" value="longBeardBlonde">Long Blonde</option>
             <option type="text" value="longBeardBrown">Long Brown</option>
             <option type="text" value="longBeardRed">Long Red</option>
@@ -231,7 +229,12 @@
 
       <div class="col-6 avatar-canvas">
         <!-- Where the avatar is drawn -->
-        <canvas id="avatarCanvas" width="300" height="300"></canvas>
+
+        <div class="fixed-canvas-container">
+
+          <canvas id="avatarCanvas" width="300" height="300"></canvas>
+
+        </div>
 
        <noscript><h1 style="text-align:left;">Your browser does not support Javascript. Please use a Javascript enabled browser to access this page.</h1></noscript>
       </div>

@@ -181,6 +181,28 @@ select#formAccessoriesTwo {
 }
 
 
+/* fixed positioning for canvas 
+
+this is on its own here so its easy to comment out/delete if it breaks
+*/
+
+.col-6.avatar-canvas {
+
+  position: relative !important;
+  height: 1000px;
+  display: flex;
+  justify-content: center;
+}
+
+.fixed-canvas-container {
+  position: absolute;
+}
+
+canvas#avatarCanvas {
+  margin-top: 2rem;
+  position: fixed;
+}
+
 /* Checkbox styles */
 /* 
 
@@ -244,7 +266,14 @@ select#formAccessoriesTwo {
   transform: rotate(45deg);
 } */
 
-@media(max-width: 720px) {
+
+@media(max-width:1190px) {
+  canvas#avatarCanvas {
+    margin-left: -50px;
+  }
+}
+
+@media(max-width: 940px) {
 
     h1 {
         margin: 1rem 0;
@@ -283,5 +312,25 @@ select#formAccessoriesTwo {
     margin-top: initial;
 }
 
+
+.col-6.avatar-canvas {
+  position: relative !important;
+  height: initial;
+  display: block;
+  justify-content: center;
+}
+
+.fixed-canvas-container {
+  position: relative;
+}
+
+canvas#avatarCanvas {
+  margin-top: 2rem;
+  position: relative;
+}
+
+canvas#avatarCanvas {
+  margin-left: auto;
+}
 
 }

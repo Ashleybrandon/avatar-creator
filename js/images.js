@@ -17,8 +17,6 @@ colorFive.src = "img/avatar-parts/Skin/Skin-5.svg"
 
 
 
-
-
 //eyes
 
 var eyeBlue = new Image()
@@ -395,4 +393,3 @@ hijabTwo.src = "img/avatar-parts/Accessories/Hijab.svg"
 
 var HeadsetTwo = new Image()
 HeadsetTwo.src = "img/avatar-parts/Accessories/Headset.svg"
-
