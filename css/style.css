@@ -100,11 +100,6 @@ nav .container .row .col-6.logo-col {
 }
 
 
-.testClass {
-  color: #414446 !important;
-}
-
-
 body.testClass .container .row .col-6 {
   padding: 0 2.5rem;
 }
@@ -127,50 +122,6 @@ canvas#avatarCanvas {
   max-width: 200px;
   margin: 2rem auto;
 }
-        
-.dropdown {
-    display: flex;
-    flex-direction: column;
-  }
-  .dropdown__menu {
-    position: relative;
-    display: flex;
-    width: 240px;
-    margin: 0 auto;
-    justify-content: center;
-    align-items: center;
-    padding: 10px 0;
-    cursor: pointer;
-  }
-  .dropdown__menu::after {
-    content: "\e92e";
-    font-family: Feather;
-    position: absolute;
-    right: 10px;
-  }
-
-  .dropdown__content {
-    width: 300px;
-    height: 0;
-    overflow-y: hidden;
-    
-  }
-  .dropdown__content--active {
-    height: auto;
-    margin: 0 auto;
-  }
-  .dropdown__element {
-    display: flex;
-  }
-
-  .dropdown__element input[type="radio"] {
-    display: none;
-  }
-  .dropdown__element label {
-    flex: 1 0;
-    padding: 24px;
-    cursor: pointer;
-  }
 
 .col-6.avatar-canvas {
   text-align: right;
