@@ -22,10 +22,10 @@ function drawSkin() {
 
 
 function drawShoulders(){
-    if ( (eye === "" || skin === "") && (shoulders !== "") ){
+    if ( eye === "" && skin === "" && shoulders !== "" ){
         alert("Choose skin and eye colour first")
     }
-    else{
+    else {
         if(shoulders === "Green-F"){
             drawImage(shouldersGreenF)
         }
@@ -290,7 +290,7 @@ function drawHair() {
 }
 
 function drawEyebrows(){
-    if ( (eye === "" || skin === "") && (eyebrows !== "")  ){
+    if ( (eye === "" && skin === "" && eyebrows !== "")  ){
         alert("Choose skin and eye colour first")
     } 
 
@@ -320,6 +320,11 @@ function drawEyebrows(){
 }
 
 function drawBeard(){
+
+    if ( (eye === "" && skin === "" && beard !== "")  ){
+        alert("Choose skin and eye colour first")
+    } 
+    else {  
     if (beard === "noBeard") {
     }
 
@@ -473,68 +478,81 @@ function drawBeard(){
         drawImage(longBeardGrey)
         drawImage(bm5)
     }
+    }
 }
 
 
 function drawGlasses(){
-    if(glasses === "glassesRound"){
-        drawImage(glassesRound)
+
+    if ( eye === "" && skin === "" && glasses !== "" ){
+        alert("Choose skin and eye colour first")
+    } 
+    
+    else {
+        if(glasses === "glassesRound"){
+            drawImage(glassesRound)
+        }
+        else if(glasses === "glassesSquare"){
+            drawImage(glassesSquare)
+        }
     }
-    else if(glasses === "glassesSquare"){
-        drawImage(glassesSquare)
-    }
+
 }
 
 
 function drawAccessories(){
-    if(accessories === "eyeLashes"){
-        drawImage(eyeLashes)
+
+    if ( eye === "" && skin === "" && accessories !== "" ){
+        alert("Choose skin and eye colour first")
+    } 
+    
+    else {
+
+        if(accessories === "eyeLashes"){
+            drawImage(eyeLashes)
+        }
+        else if(accessories === "freckles"){
+            drawImage(freckles)
+        }
+        else if(accessories === "goldEarrings"){
+            drawImage(goldEarrings)
+        }
+        else if(accessories === "silverEarrings"){
+            drawImage(silverEarrings)
+        }
+        else if(accessories === "hijab"){
+            drawImage(hijab)
+        }
+        else if(accessories === "Headset"){
+            drawImage(Headset)
+        }
     }
-    else if(accessories === "freckles"){
-        drawImage(freckles)
-    }
-    else if(accessories === "glassesRound"){
-        drawImage(glassesRound)
-    }
-    else if(accessories === "glassesSquare"){
-        drawImage(glassesSquare)
-    }
-    else if(accessories === "goldEarrings"){
-        drawImage(goldEarrings)
-    }
-    else if(accessories === "silverEarrings"){
-        drawImage(silverEarrings)
-    }
-    else if(accessories === "hijab"){
-        drawImage(hijab)
-    }
-    else if(accessories === "Headset"){
-        drawImage(Headset)
-    }
+
 }
 
 function drawAccessoriesTwo(){
-    if(accessoriesTwo === "eyeLashesTwo"){
-        drawImage(eyeLashes)
-    }
-    else if(accessoriesTwo === "frecklesTwo"){
-        drawImage(freckles)
-    }
-    else if(accessoriesTwo === "glassesRoundTwo"){
-        drawImage(glassesRound)
-    }
-    else if(accessoriesTwo === "glassesSquareTwo"){
-        drawImage(glassesSquare)
-    }
-    else if(accessoriesTwo === "goldEarringsTwo"){
-        drawImage(goldEarrings)
-    }
-    else if(accessoriesTwo === "silverEarringsTwo"){
-        drawImage(silverEarrings)
-    }
- 
-    else if(accessoriesTwo === "HeadsetTwo"){
-        drawImage(Headset)
+    if ( eye === "" && skin === "" && accessoriesTwo !== "" ){
+        alert("Choose skin and eye colour first")
+    } 
+    
+    else {
+
+        if(accessoriesTwo === "eyeLashesTwo"){
+            drawImage(eyeLashes)
+        }
+        else if(accessoriesTwo === "frecklesTwo"){
+            drawImage(freckles)
+        }
+        else if(accessoriesTwo === "goldEarringsTwo"){
+            drawImage(goldEarrings)
+        }
+        else if(accessoriesTwo === "silverEarringsTwo"){
+            drawImage(silverEarrings)
+        }
+
+        else if(accessoriesTwo === "HeadsetTwo"){
+            drawImage(Headset)
+        }
     }
 }
 
@@ -596,14 +614,13 @@ var download_img = function (el) {
 
 document.getElementById("download").addEventListener('click', function(e){
     if ( skin === "" || eye === "" || shoulders === "" ) {
-       alert('complete your avatar before downloading');
+       alert('Complete your avatar before downloading');
        e.preventDefault();
     } else {
         download_img(this);
     }
         
     });
-
 
 
 function clearCanvas(canvas,ctx) {
