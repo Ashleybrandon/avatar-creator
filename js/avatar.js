@@ -48,7 +48,15 @@ function drawHair() {
         alert("Choose skin and eye colour first")
     } else {
 
-        if (haircolor === "Blonde" && hair === "Quiff") {
+        if (accessories === "hijab" && hair !== ""){
+            drawImage(hijab)
+        }
+
+        else if (accessoriesTwo === "hijabTwo" && hair !== ""){
+            drawImage(hijab)
+        }
+
+       else if (haircolor === "Blonde" && hair === "Quiff") {
             drawImage(quiffShortBlonde);
         }
         else if (haircolor === "Blonde" && hair === "Bob") {
@@ -287,9 +295,6 @@ function drawHair() {
             drawImage(straightLongGrey);
         }
     
-        else if(hair === "hijab"){
-            drawImage(hijab)
-        }
     }
 
 
@@ -532,6 +537,7 @@ function drawAccessories(){
         else if(accessories === "Headset"){
             drawImage(Headset)
         }
+
     }
 
 }
@@ -558,6 +564,9 @@ function drawAccessoriesTwo(){
 
         else if(accessoriesTwo === "HeadsetTwo"){
             drawImage(Headset)
+        }
+        else if(accessoriesTwo === "hijabTwo"){
+            drawImage(hijab)
         }
     }
 }
@@ -597,11 +606,12 @@ function drawAvatar() {
     drawShoulders()
     drawEyebrows()
     drawBeard()
+    drawHair()
     drawAccessories()
     drawAccessoriesTwo()
     drawGlasses()
     drawEyes()
-    drawHair()
+   
     
 }
 
