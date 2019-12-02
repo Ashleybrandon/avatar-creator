@@ -22,7 +22,7 @@ function drawSkin() {
 
 
 function drawShoulders(){
-    if ( eye === "" && skin === "" && shoulders !== "" ){
+    if ( (eye === "" && skin === "") && (shoulders !== "") ){
         alert("Choose skin and eye colour first")
     }
     else {
@@ -44,253 +44,259 @@ function drawShoulders(){
 
 function drawHair() {
 
-    if (haircolor === "Blonde" && hair === "Quiff") {
-        drawImage(quiffShortBlonde);
-    }
-    else if (haircolor === "Blonde" && hair === "Bob") {
-        drawImage(bobBlonde);
-    }
-    else if (haircolor === "Blonde" && hair === "Bun") {
-        drawImage(bunBlonde);
-    }
-    else if (haircolor === "Blonde" && hair === "Pony") {
-        drawImage(ponyBlonde);
-    }
-    else if (haircolor === "Blonde" && hair === "Crew") {
-        drawImage(crewBlonde);
-    }
-  
-    else if (haircolor === "Blonde" && hair === "CurlyShort") {
-        drawImage(curlyShortBlonde);
-    }
-    else if (haircolor === "Blonde" && hair === "CurlyLong") {
-        drawImage(curlyLongBlonde);
-    }
-    else if (haircolor === "Blonde" && hair === "combOver") {
-        drawImage(shortSidesLongTopBlonde);
-    }
-    else if (haircolor === "Blonde" && hair === "straightMedium") {
-        drawImage(straightMediumBlonde);
-    }
-    else if (haircolor === "Blonde" && hair === "straightMedium") {
-        drawImage(straightMediumBlonde);
-    }
-    else if (haircolor === "Blonde" && hair === "straightLong") {
-        drawImage(straightLongBlonde);
-    }
-    else if (haircolor === "Brown" && hair === "Quiff") {
-        drawImage(quiffShortBrown);
-    }
-    else if (haircolor === "Brown" && hair === "Bob") {
-        drawImage(bobBrown);
-    }
-    else if (haircolor === "Brown" && hair === "Bun") {
-        drawImage(bunBrown);
-    }
-    else if (haircolor === "Brown" && hair === "Pony") {
-        drawImage(ponyBrown);
-    }
-    else if (haircolor === "Brown" && hair === "Crew") {
-        drawImage(crewBrown);
+    if ( (eye === "" && skin === "") && (hair !== "") ){
+        alert("Choose skin and eye colour first")
+    } else {
+
+        if (haircolor === "Blonde" && hair === "Quiff") {
+            drawImage(quiffShortBlonde);
+        }
+        else if (haircolor === "Blonde" && hair === "Bob") {
+            drawImage(bobBlonde);
+        }
+        else if (haircolor === "Blonde" && hair === "Bun") {
+            drawImage(bunBlonde);
+        }
+        else if (haircolor === "Blonde" && hair === "Pony") {
+            drawImage(ponyBlonde);
+        }
+        else if (haircolor === "Blonde" && hair === "Crew") {
+            drawImage(crewBlonde);
+        }
+      
+        else if (haircolor === "Blonde" && hair === "CurlyShort") {
+            drawImage(curlyShortBlonde);
+        }
+        else if (haircolor === "Blonde" && hair === "CurlyLong") {
+            drawImage(curlyLongBlonde);
+        }
+        else if (haircolor === "Blonde" && hair === "combOver") {
+            drawImage(shortSidesLongTopBlonde);
+        }
+        else if (haircolor === "Blonde" && hair === "straightMedium") {
+            drawImage(straightMediumBlonde);
+        }
+        else if (haircolor === "Blonde" && hair === "straightMedium") {
+            drawImage(straightMediumBlonde);
+        }
+        else if (haircolor === "Blonde" && hair === "straightLong") {
+            drawImage(straightLongBlonde);
+        }
+        else if (haircolor === "Brown" && hair === "Quiff") {
+            drawImage(quiffShortBrown);
+        }
+        else if (haircolor === "Brown" && hair === "Bob") {
+            drawImage(bobBrown);
+        }
+        else if (haircolor === "Brown" && hair === "Bun") {
+            drawImage(bunBrown);
+        }
+        else if (haircolor === "Brown" && hair === "Pony") {
+            drawImage(ponyBrown);
+        }
+        else if (haircolor === "Brown" && hair === "Crew") {
+            drawImage(crewBrown);
+        }
+    
+        else if (haircolor === "Brown" && hair === "CurlyShort") {
+            drawImage(curlyShortBrown);
+        }
+        else if (haircolor === "Brown" && hair === "CurlyLong") {
+            drawImage(curlyLongBrown);
+        }
+        else if (haircolor === "Brown" && hair === "combOver") {
+            drawImage(shortSidesLongTopBrown);
+        }
+        else if (haircolor === "Brown" && hair === "straightMedium") {
+            drawImage(straightMediumBrown);
+        }
+        else if (haircolor === "Brown" && hair === "straightMedium") {
+            drawImage(straightMediumBrown);
+        }
+        else if (haircolor === "Brown" && hair === "straightLong") {
+            drawImage(straightLongBrown);
+        }
+    
+        else if (haircolor === "Red" && hair === "Quiff") {
+            drawImage(quiffShortRed);
+        }
+        else if (haircolor === "Red" && hair === "Bob") {
+            drawImage(bobRed);
+        }
+        else if (haircolor === "Red" && hair === "Bun") {
+            drawImage(bunRed);
+        }
+        else if (haircolor === "Red" && hair === "Pony") {
+            drawImage(ponyRed);
+        }
+        else if (haircolor === "Red" && hair === "Crew") {
+            drawImage(crewRed);
+        }
+    
+        else if (haircolor === "Red" && hair === "CurlyShort") {
+            drawImage(curlyShortRed);
+        }
+        else if (haircolor === "Red" && hair === "CurlyLong") {
+            drawImage(curlyLongRed);
+        }
+        else if (haircolor === "Red" && hair === "combOver") {
+            drawImage(shortSidesLongTopRed);
+        }
+        else if (haircolor === "Red" && hair === "straightMedium") {
+            drawImage(straightMediumRed);
+        }
+        else if (haircolor === "Red" && hair === "straightMedium") {
+            drawImage(straightMediumRed);
+        }
+        else if (haircolor === "Red" && hair === "straightLong") {
+            drawImage(straightLongRed);
+        }
+    
+        else if (haircolor === "Black" && hair === "Quiff") {
+            drawImage(quiffShortBlack);
+        }
+        else if (haircolor === "Black" && hair === "Bob") {
+            drawImage(bobBlack);
+        }
+        else if (haircolor === "Black" && hair === "Bun") {
+            drawImage(bunBlack);
+        }
+        else if (haircolor === "Black" && hair === "Pony") {
+            drawImage(ponyBlack);
+        }
+        else if (haircolor === "Black" && hair === "Crew") {
+            drawImage(crewBlack);
+        }
+    
+        else if (haircolor === "Black" && hair === "CurlyShort") {
+            drawImage(curlyShortBlack);
+        }
+        else if (haircolor === "Black" && hair === "CurlyLong") {
+            drawImage(curlyLongBlack);
+        }
+        else if (haircolor === "Black" && hair === "combOver") {
+            drawImage(shortSidesLongTopBlack);
+        }
+        else if (haircolor === "Black" && hair === "straightMedium") {
+            drawImage(straightMediumBlack);
+        }
+        else if (haircolor === "Black" && hair === "straightMedium") {
+            drawImage(straightMediumBlack);
+        }
+        else if (haircolor === "Black" && hair === "straightLong") {
+            drawImage(straightLongBlack);
+        }
+    
+        else if (haircolor === "Blue" && hair === "Quiff") {
+            drawImage(quiffShortBlue);
+        }
+        else if (haircolor === "Blue" && hair === "Bob") {
+            drawImage(bobBlue);
+        }
+        else if (haircolor === "Blue" && hair === "Bun") {
+            drawImage(bunBlue);
+        }
+        else if (haircolor === "Blue" && hair === "Pony") {
+            drawImage(ponyBlue);
+        }
+        else if (haircolor === "Blue" && hair === "Crew") {
+            drawImage(crewBlue);
+        }
+        else if (haircolor === "Blue" && hair === "CurlyShort") {
+            drawImage(curlyShortBlue);
+        }
+        else if (haircolor === "Blue" && hair === "CurlyLong") {
+            drawImage(curlyLongBlue);
+        }
+        else if (haircolor === "Blue" && hair === "combOver") {
+            drawImage(shortSidesLongTopBlue);
+        }
+        else if (haircolor === "Blue" && hair === "straightMedium") {
+            drawImage(straightMediumBlue);
+        }
+        else if (haircolor === "Blue" && hair === "straightMedium") {
+            drawImage(straightMediumBlue);
+        }
+        else if (haircolor === "Blue" && hair === "straightLong") {
+            drawImage(straightLongBlue);
+        }
+    
+        else if (haircolor === "Pink" && hair === "Quiff") {
+            drawImage(quiffShortPink);
+        }
+        else if (haircolor === "Pink" && hair === "Bob") {
+            drawImage(bobPink);
+        }
+        else if (haircolor === "Pink" && hair === "Bun") {
+            drawImage(bunPink);
+        }
+        else if (haircolor === "Pink" && hair === "Pony") {
+            drawImage(ponyPink);
+        }
+        else if (haircolor === "Pink" && hair === "Crew") {
+            drawImage(crewPink);
+        }
+        else if (haircolor === "Pink" && hair === "CurlyShort") {
+            drawImage(curlyShortPink);
+        }
+        else if (haircolor === "Pink" && hair === "CurlyLong") {
+            drawImage(curlyLongPink);
+        }
+        else if (haircolor === "Pink" && hair === "combOver") {
+            drawImage(shortSidesLongTopPink);
+        }
+        else if (haircolor === "Pink" && hair === "straightMedium") {
+            drawImage(straightMediumPink);
+        }
+        else if (haircolor === "Pink" && hair === "straightMedium") {
+            drawImage(straightMediumPink);
+        }
+        else if (haircolor === "Pink" && hair === "straightLong") {
+            drawImage(straightLongPink);
+        }
+    
+        else if (haircolor === "Grey" && hair === "Quiff") {
+            drawImage(quiffShortGrey);
+        }
+        else if (haircolor === "Grey" && hair === "Bob") {
+            drawImage(bobGrey);
+        }
+        else if (haircolor === "Grey" && hair === "Bun") {
+            drawImage(bunGrey);
+        }
+        else if (haircolor === "Grey" && hair === "Pony") {
+            drawImage(ponyGrey);
+        }
+        else if (haircolor === "Grey" && hair === "Crew") {
+            drawImage(crewGrey);
+        }
+    
+        else if (haircolor === "Grey" && hair === "CurlyShort") {
+            drawImage(curlyShortGrey);
+        }
+        else if (haircolor === "Grey" && hair === "CurlyLong") {
+            drawImage(curlyLongGrey);
+        }
+        else if (haircolor === "Grey" && hair === "combOver") {
+            drawImage(shortSidesLongTopGrey);
+        }
+        else if (haircolor === "Grey" && hair === "straightMedium") {
+            drawImage(straightMediumGrey);
+        }
+        else if (haircolor === "Grey" && hair === "straightLong") {
+            drawImage(straightLongGrey);
+        }
+    
+        else if(hair === "hijab"){
+            drawImage(hijab)
+        }
     }
 
-    else if (haircolor === "Brown" && hair === "CurlyShort") {
-        drawImage(curlyShortBrown);
-    }
-    else if (haircolor === "Brown" && hair === "CurlyLong") {
-        drawImage(curlyLongBrown);
-    }
-    else if (haircolor === "Brown" && hair === "combOver") {
-        drawImage(shortSidesLongTopBrown);
-    }
-    else if (haircolor === "Brown" && hair === "straightMedium") {
-        drawImage(straightMediumBrown);
-    }
-    else if (haircolor === "Brown" && hair === "straightMedium") {
-        drawImage(straightMediumBrown);
-    }
-    else if (haircolor === "Brown" && hair === "straightLong") {
-        drawImage(straightLongBrown);
-    }
-
-    else if (haircolor === "Red" && hair === "Quiff") {
-        drawImage(quiffShortRed);
-    }
-    else if (haircolor === "Red" && hair === "Bob") {
-        drawImage(bobRed);
-    }
-    else if (haircolor === "Red" && hair === "Bun") {
-        drawImage(bunRed);
-    }
-    else if (haircolor === "Red" && hair === "Pony") {
-        drawImage(ponyRed);
-    }
-    else if (haircolor === "Red" && hair === "Crew") {
-        drawImage(crewRed);
-    }
-
-    else if (haircolor === "Red" && hair === "CurlyShort") {
-        drawImage(curlyShortRed);
-    }
-    else if (haircolor === "Red" && hair === "CurlyLong") {
-        drawImage(curlyLongRed);
-    }
-    else if (haircolor === "Red" && hair === "combOver") {
-        drawImage(shortSidesLongTopRed);
-    }
-    else if (haircolor === "Red" && hair === "straightMedium") {
-        drawImage(straightMediumRed);
-    }
-    else if (haircolor === "Red" && hair === "straightMedium") {
-        drawImage(straightMediumRed);
-    }
-    else if (haircolor === "Red" && hair === "straightLong") {
-        drawImage(straightLongRed);
-    }
-
-    else if (haircolor === "Black" && hair === "Quiff") {
-        drawImage(quiffShortBlack);
-    }
-    else if (haircolor === "Black" && hair === "Bob") {
-        drawImage(bobBlack);
-    }
-    else if (haircolor === "Black" && hair === "Bun") {
-        drawImage(bunBlack);
-    }
-    else if (haircolor === "Black" && hair === "Pony") {
-        drawImage(ponyBlack);
-    }
-    else if (haircolor === "Black" && hair === "Crew") {
-        drawImage(crewBlack);
-    }
-
-    else if (haircolor === "Black" && hair === "CurlyShort") {
-        drawImage(curlyShortBlack);
-    }
-    else if (haircolor === "Black" && hair === "CurlyLong") {
-        drawImage(curlyLongBlack);
-    }
-    else if (haircolor === "Black" && hair === "combOver") {
-        drawImage(shortSidesLongTopBlack);
-    }
-    else if (haircolor === "Black" && hair === "straightMedium") {
-        drawImage(straightMediumBlack);
-    }
-    else if (haircolor === "Black" && hair === "straightMedium") {
-        drawImage(straightMediumBlack);
-    }
-    else if (haircolor === "Black" && hair === "straightLong") {
-        drawImage(straightLongBlack);
-    }
-
-    else if (haircolor === "Blue" && hair === "Quiff") {
-        drawImage(quiffShortBlue);
-    }
-    else if (haircolor === "Blue" && hair === "Bob") {
-        drawImage(bobBlue);
-    }
-    else if (haircolor === "Blue" && hair === "Bun") {
-        drawImage(bunBlue);
-    }
-    else if (haircolor === "Blue" && hair === "Pony") {
-        drawImage(ponyBlue);
-    }
-    else if (haircolor === "Blue" && hair === "Crew") {
-        drawImage(crewBlue);
-    }
-    else if (haircolor === "Blue" && hair === "CurlyShort") {
-        drawImage(curlyShortBlue);
-    }
-    else if (haircolor === "Blue" && hair === "CurlyLong") {
-        drawImage(curlyLongBlue);
-    }
-    else if (haircolor === "Blue" && hair === "combOver") {
-        drawImage(shortSidesLongTopBlue);
-    }
-    else if (haircolor === "Blue" && hair === "straightMedium") {
-        drawImage(straightMediumBlue);
-    }
-    else if (haircolor === "Blue" && hair === "straightMedium") {
-        drawImage(straightMediumBlue);
-    }
-    else if (haircolor === "Blue" && hair === "straightLong") {
-        drawImage(straightLongBlue);
-    }
-
-    else if (haircolor === "Pink" && hair === "Quiff") {
-        drawImage(quiffShortPink);
-    }
-    else if (haircolor === "Pink" && hair === "Bob") {
-        drawImage(bobPink);
-    }
-    else if (haircolor === "Pink" && hair === "Bun") {
-        drawImage(bunPink);
-    }
-    else if (haircolor === "Pink" && hair === "Pony") {
-        drawImage(ponyPink);
-    }
-    else if (haircolor === "Pink" && hair === "Crew") {
-        drawImage(crewPink);
-    }
-    else if (haircolor === "Pink" && hair === "CurlyShort") {
-        drawImage(curlyShortPink);
-    }
-    else if (haircolor === "Pink" && hair === "CurlyLong") {
-        drawImage(curlyLongPink);
-    }
-    else if (haircolor === "Pink" && hair === "combOver") {
-        drawImage(shortSidesLongTopPink);
-    }
-    else if (haircolor === "Pink" && hair === "straightMedium") {
-        drawImage(straightMediumPink);
-    }
-    else if (haircolor === "Pink" && hair === "straightMedium") {
-        drawImage(straightMediumPink);
-    }
-    else if (haircolor === "Pink" && hair === "straightLong") {
-        drawImage(straightLongPink);
-    }
-
-    else if (haircolor === "Grey" && hair === "Quiff") {
-        drawImage(quiffShortGrey);
-    }
-    else if (haircolor === "Grey" && hair === "Bob") {
-        drawImage(bobGrey);
-    }
-    else if (haircolor === "Grey" && hair === "Bun") {
-        drawImage(bunGrey);
-    }
-    else if (haircolor === "Grey" && hair === "Pony") {
-        drawImage(ponyGrey);
-    }
-    else if (haircolor === "Grey" && hair === "Crew") {
-        drawImage(crewGrey);
-    }
-
-    else if (haircolor === "Grey" && hair === "CurlyShort") {
-        drawImage(curlyShortGrey);
-    }
-    else if (haircolor === "Grey" && hair === "CurlyLong") {
-        drawImage(curlyLongGrey);
-    }
-    else if (haircolor === "Grey" && hair === "combOver") {
-        drawImage(shortSidesLongTopGrey);
-    }
-    else if (haircolor === "Grey" && hair === "straightMedium") {
-        drawImage(straightMediumGrey);
-    }
-    else if (haircolor === "Grey" && hair === "straightLong") {
-        drawImage(straightLongGrey);
-    }
-
-    else if(hair === "hijab"){
-        drawImage(hijab)
-    }
 
 }
 
 function drawEyebrows(){
-    if ( (eye === "" && skin === "" && eyebrows !== "")  ){
+    if ((eye === "" && skin === "") && (eyebrows !== "")) {
         alert("Choose skin and eye colour first")
     } 
 
@@ -321,7 +327,7 @@ function drawEyebrows(){
 
 function drawBeard(){
 
-    if ( (eye === "" && skin === "" && beard !== "")  ){
+    if ( (eye === "" && skin === "") && (beard !== "")  ){
         alert("Choose skin and eye colour first")
     } 
     else {  
@@ -484,7 +490,7 @@ function drawBeard(){
 
 function drawGlasses(){
 
-    if ( eye === "" && skin === "" && glasses !== "" ){
+    if ( (eye === "" && skin === "") && (glasses !== "") ){
         alert("Choose skin and eye colour first")
     } 
     
@@ -502,7 +508,7 @@ function drawGlasses(){
 
 function drawAccessories(){
 
-    if ( eye === "" && skin === "" && accessories !== "" ){
+    if ( (eye === "" && skin === "") && (accessories !== "") ){
         alert("Choose skin and eye colour first")
     } 
     
@@ -531,7 +537,7 @@ function drawAccessories(){
 }
 
 function drawAccessoriesTwo(){
-    if ( eye === "" && skin === "" && accessoriesTwo !== "" ){
+    if ( (eye === "" && skin === "") && (accessoriesTwo !== "") ){
         alert("Choose skin and eye colour first")
     } 
     
