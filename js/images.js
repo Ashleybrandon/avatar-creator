@@ -393,3 +393,21 @@ hijabTwo.src = "img/avatar-parts/Accessories/Hijab.svg"
 
 var HeadsetTwo = new Image()
 HeadsetTwo.src = "img/avatar-parts/Accessories/Headset.svg"
+
+
+//beard mouths
+
+var bm1 = new Image()
+bm1.src = "img/avatar-parts/Mouths/Mouth-Skin-1.svg"
+
+var bm2 = new Image()
+bm2.src = "img/avatar-parts/Mouths/Mouth-Skin-2.svg"
+
+var bm3 = new Image()
+bm3.src = "img/avatar-parts/Mouths/Mouth-Skin-3.svg"
+
+var bm4 = new Image()
+bm4.src = "img/avatar-parts/Mouths/Mouth-Skin-4.svg"
+
+var bm5 = new Image()
+bm5.src = "img/avatar-parts/Mouths/Mouth-Skin-5.svg"

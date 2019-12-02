@@ -21,10 +21,9 @@ function drawSkin() {
 }
 
 
-function drawShoulders(e){
-    if ((skin === "" && shoulders != "" ) ||  (eye === "" && shoulders != "" ) ){
+function drawShoulders(){
+    if ( (eye === "" || skin === "") && (shoulders !== "") ){
         alert("Choose skin and eye colour first")
-        e.stopPropagation();
     }
     else{
         if(shoulders === "Green-F"){
@@ -42,56 +41,6 @@ function drawShoulders(e){
     }
 }
 
-//for default black hair
-
-// function drawHair() {
-
-//     if ( skin === "" && eye === "" ){
-//         alert("Choose skin and eye colour first")
-       
-//     } else {
-
-//         if (hair === "noHair") {
-//             drawImage(noHair);
-//         }
-        
-//         else if (hair === "Quiff") {
-//             drawImage(quiffShortBlack);
-//         }
-//         else if (hair === "Bob") {
-//             drawImage(bobBlack);
-//         }
-//         else if (hair === "Bun") {
-//             drawImage(bunBlack);
-//         }
-//         else if (hair === "Pony") {
-//             drawImage(ponyBlack);
-//         }
-//         else if (hair === "Crew") {
-//             drawImage(crewBlack);
-//         }
-//         else if (hair === "CurlyShort") {
-//             drawImage(curlyShortBlack);
-//         }
-//         else if (hair === "CurlyLong") {
-//             drawImage(curlyLongBlack);
-//         }
-//         else if (hair === "combOver") {
-//             drawImage(shortSidesLongTopBlack);
-//         }
-//         else if (hair === "straightMedium") {
-//             drawImage(straightMediumBlack);
-//         }
-//         else if (hair === "straightMedium") {
-//             drawImage(straightMediumBlack);
-//         }
-//         else if (hair === "straightLong") {
-//             drawImage(straightLongBlack);
-//         }
-//     }
-
-
-// }
 
 function drawHair() {
 
@@ -249,7 +198,6 @@ function drawHair() {
     else if (haircolor === "Blue" && hair === "Crew") {
         drawImage(crewBlue);
     }
-
     else if (haircolor === "Blue" && hair === "CurlyShort") {
         drawImage(curlyShortBlue);
     }
@@ -331,72 +279,199 @@ function drawHair() {
     else if (haircolor === "Grey" && hair === "straightMedium") {
         drawImage(straightMediumGrey);
     }
-    else if (haircolor === "Grey" && hair === "straightMedium") {
-        drawImage(straightMediumGrey);
-    }
     else if (haircolor === "Grey" && hair === "straightLong") {
         drawImage(straightLongGrey);
     }
+
+    else if(hair === "hijab"){
+        drawImage(hijab)
+    }
+
 }
 
 function drawEyebrows(){
-    if(eyebrows === "blondeEyebrows"){
-        drawImage(eyebrowsBlonde)
-    }
-    else if(eyebrows === "brownEyebrows"){
-        drawImage(eyebrowsBrown)
-    }
-    else if(eyebrows === "redEyebrows"){
-        drawImage(eyebrowsRed)
-    }
-    else if(eyebrows === "blackEyebrows"){
-        drawImage(eyebrowsBlack)
-    }
-    else if(eyebrows === "blueEyebrows"){
-        drawImage(eyebrowsBlue)
-    }
-    else if(eyebrows === "pinkEyebrows"){
-        drawImage(eyebrowsPink)
-    }
-    else if(eyebrows === "greyEyebrows"){
-        drawImage(eyebrowsGrey)
+    if ( (eye === "" || skin === "") && (eyebrows !== "")  ){
+        alert("Choose skin and eye colour first")
+    } 
+
+    else  {
+        if(eyebrows === "blondeEyebrows"){
+            drawImage(eyebrowsBlonde)
+        }
+        else if(eyebrows === "brownEyebrows"){
+            drawImage(eyebrowsBrown)
+        }
+        else if(eyebrows === "redEyebrows"){
+            drawImage(eyebrowsRed)
+        }
+        else if(eyebrows === "blackEyebrows"){
+            drawImage(eyebrowsBlack)
+        }
+        else if(eyebrows === "blueEyebrows"){
+            drawImage(eyebrowsBlue)
+        }
+        else if(eyebrows === "pinkEyebrows"){
+            drawImage(eyebrowsPink)
+        }
+        else if(eyebrows === "greyEyebrows"){
+            drawImage(eyebrowsGrey)
+        }
     }
 }
 
 function drawBeard(){
     if (beard === "noBeard") {
-         
+    }
+
+    else if(hair === "hijab" && beard !== ""){
+        drawImage(hijab)
     }
 
     else if(beard === "shortBeardBlonde"){
         drawImage(shortBeardBlonde)
     }
-    else if(beard === "shortBeardBrown"){
+
+    else if(skin === "colorOne" && beard === "shortBeardBrown"){
         drawImage(shortBeardBrown)
+        drawImage(bm1)
     }
+
+    else if(skin === "colorTwo" && beard === "shortBeardBrown"){
+        drawImage(shortBeardBrown)
+        drawImage(bm2)
+    }
+    else if(skin === "colorThree" && beard === "shortBeardBrown"){
+        drawImage(shortBeardBrown)
+        drawImage(bm3)
+    }
+    else if(skin === "colorFour" && beard === "shortBeardBrown"){
+        drawImage(shortBeardBrown)
+        drawImage(bm4)
+    }
+    else if(skin === "colorFive" && beard === "shortBeardBrown"){
+        drawImage(shortBeardBrown)
+        drawImage(bm5)
+    }
+
     else if(beard === "shortBeardRed"){
         drawImage(shortBeardRed)
     }
-    else if(beard === "shortBeardBlack"){
+
+    else if(skin === "colorOne" && beard === "shortBeardBlack"){
         drawImage(shortBeardBlack)
+        drawImage(bm1)
     }
-    else if(beard === "shortBeardGrey"){
+    else if(skin === "colorTwo" && beard === "shortBeardBlack"){
+        drawImage(shortBeardBlack)
+        drawImage(bm2)
+    }
+    else if(skin === "colorThree" && beard === "shortBeardBlack"){
+        drawImage(shortBeardBlack)
+        drawImage(bm3)
+    }
+    else if(skin === "colorFour" && beard === "shortBeardBlack"){
+        drawImage(shortBeardBlack)
+        drawImage(bm4)
+    }
+    else if(skin === "colorFive" && beard === "shortBeardBlack"){
+        drawImage(shortBeardBlack)
+        drawImage(bm5)
+    }
+
+    else if(skin === "colorOne" && beard === "shortBeardGrey"){
         drawImage(shortBeardGrey)
+        drawImage(bm1)
     }
+    else if(skin === "colorTwo" && beard === "shortBeardGrey"){
+        drawImage(shortBeardGrey)
+        drawImage(bm2)
+    }
+    else if(skin === "colorThree" && beard === "shortBeardGrey"){
+        drawImage(shortBeardGrey)
+        drawImage(bm3)
+    }
+    else if(skin === "colorFour" && beard === "shortBeardGrey"){
+        drawImage(shortBeardGrey)
+        drawImage(bm4)
+    }
+    else if(skin === "colorFive" && beard === "shortBeardGrey"){
+        drawImage(shortBeardGrey)
+        drawImage(bm5)
+    }
+
     else if(beard === "longBeardBlonde"){
         drawImage(longBeardBlonde)
     }
-    else if(beard === "longBeardBrown"){
-        drawImage(longBeardBrown)
-    }
+
     else if(beard === "longBeardRed"){
         drawImage(longBeardRed)
     }
-    else if(beard === "longBeardBlack"){
-        drawImage(longBeardBlack)
+
+    else if(skin === "colorOne" && beard === "longBeardBrown"){
+        drawImage(longBeardBrown)
+        drawImage(bm1)
     }
-    else if(beard === "longBeardGrey"){
+
+    else if(skin === "colorTwo" && beard === "longBeardBrown"){
+        drawImage(longBeardBrown)
+        drawImage(bm2)
+    }
+
+    else if(skin === "colorThree" && beard === "longBeardBrown"){
+        drawImage(longBeardBrown)
+        drawImage(bm3)
+    }
+
+    else if(skin === "colorFour" && beard === "longBeardBrown"){
+        drawImage(longBeardBrown)
+        drawImage(bm4)
+    }
+
+    else if(skin === "colorFive" && beard === "longBeardBrown"){
+        drawImage(longBeardBrown)
+        drawImage(bm5)
+    }
+
+    else if(skin === "colorOne" && beard === "longBeardBlack"){
+        drawImage(longBeardBlack)
+        drawImage(bm1)
+    }
+    else if(skin === "colorTwo" && beard === "longBeardBlack"){
+        drawImage(longBeardBlack)
+        drawImage(bm2)
+    }
+    else if(skin === "colorThree" && beard === "longBeardBlack"){
+        drawImage(longBeardBlack)
+        drawImage(bm3)
+    }
+    else if(skin === "colorFour" && beard === "longBeardBlack"){
+        drawImage(longBeardBlack)
+        drawImage(bm4)
+    }
+    else if(skin === "colorFive" && beard === "longBeardBlack"){
+        drawImage(longBeardBlack)
+        drawImage(bm5)
+    }
+
+    else if(skin === "colorOne" && beard === "longBeardGrey"){
         drawImage(longBeardGrey)
+        drawImage(bm1)
+    }
+    else if(skin === "colorTwo" && beard === "longBeardGrey"){
+        drawImage(longBeardGrey)
+        drawImage(bm2)
+    }
+    else if(skin === "colorThree" && beard === "longBeardGrey"){
+        drawImage(longBeardGrey)
+        drawImage(bm3)
+    }
+    else if(skin === "colorFour" && beard === "longBeardGrey"){
+        drawImage(longBeardGrey)
+        drawImage(bm4)
+    }
+    else if(skin === "colorFive" && beard === "longBeardGrey"){
+        drawImage(longBeardGrey)
+        drawImage(bm5)
     }
 }
 
@@ -432,7 +507,6 @@ function drawAccessories(){
     }
     else if(accessories === "hijab"){
         drawImage(hijab)
-        drawHairColor(crewBlack)
     }
     else if(accessories === "Headset"){
         drawImage(Headset)
@@ -458,21 +532,18 @@ function drawAccessoriesTwo(){
     else if(accessoriesTwo === "silverEarringsTwo"){
         drawImage(silverEarrings)
     }
-    else if(accessoriesTwo === "hijabTwo"){
-        drawImage(hijab)
-    }
+ 
     else if(accessoriesTwo === "HeadsetTwo"){
         drawImage(Headset)
     }
 }
 
-function drawEyes(e) {
+function drawEyes() {
 
-    if ( skin === "" ){
+    if ( (eye !== "") && (skin === "") ){
         alert("Choose skin colour first")
-        e.stopPropagation();
     }
-    else{
+    else {
         if (eye === "Blue") {
             drawImage(eyeBlue)
         }
@@ -499,16 +570,14 @@ function drawAvatar() {
     ctx.clearRect(0, 0, canvas.width, canvas.height)
     
     drawSkin()
-  
     drawShoulders()
-    drawHair()
-    // drawHairColor()
     drawEyebrows()
     drawBeard()
     drawAccessories()
     drawAccessoriesTwo()
     drawGlasses()
     drawEyes()
+    drawHair()
     
 }
 
@@ -519,7 +588,6 @@ function drawImage(image) {
 
 var canvas = document.getElementById("avatarCanvas");
 var dlButton = document.getElementById("download");
-
 var download_img = function (el) {
     var image = canvas.toDataURL("image/png");
     el.href = image;
