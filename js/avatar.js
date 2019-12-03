@@ -339,8 +339,11 @@ function drawBeard(){
     if (beard === "noBeard") {
     }
 
-    else if(hair === "hijab" && beard !== ""){
+    else if(accessories === "hijab" && beard !== ""){
         drawImage(hijab)
+    }
+    else if(accessoriesTwo === "hijabTwo" && beard !== ""){
+        drawImage(hijabTwo)
     }
 
     else if(beard === "shortBeardBlonde"){
@@ -605,8 +608,8 @@ function drawAvatar() {
     drawSkin()
     drawShoulders()
     drawEyebrows()
-    drawBeard()
     drawHair()
+    drawBeard()
     drawAccessories()
     drawAccessoriesTwo()
     drawGlasses()
