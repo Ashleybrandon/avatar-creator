@@ -1,3 +1,4 @@
+
 //loads skin/face
 
 var skin = "";
@@ -68,6 +69,8 @@ optionSix.addEventListener("change", function(event) {
 });
 
 
+
+
 var haircolor = ""
 
 var optionSeven = document.getElementById("formHaircolor");
@@ -108,7 +111,6 @@ option.addEventListener("change", function(event) {
     accessoriesTwo = event.target.value;
     drawAvatar();
 });
-
 
 
 

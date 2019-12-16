@@ -15,8 +15,6 @@ colorFour.src = "img/avatar-parts/Skin/Skin-4.svg"
 var colorFive = new Image()
 colorFive.src = "img/avatar-parts/Skin/Skin-5.svg"
 
-
-
 //eyes
 
 var eyeBlue = new Image()
@@ -38,9 +36,7 @@ var eyeDarkBrown = new Image()
 eyeDarkBrown.src = "img/avatar-parts/Eyes/Eyes-Dark-Brown.svg"
 
 
-
 //Hair
-
 
 var noHair = new Image()
 noHair.src = "img/avatar-parts/Hair/no-hair.svg"
@@ -340,6 +336,21 @@ longBeardRed.src = "img/avatar-parts/Facial-Hair/long-beard-red.svg"
 
 var longBeardGrey = new Image()
 longBeardGrey.src = "img/avatar-parts/Facial-Hair/long-beard-grey.svg"
+
+var moustacheBlonde = new Image()
+moustacheBlonde.src = "img/avatar-parts/Facial-Hair/moustache-blonde.svg"
+
+var moustacheBrown = new Image()
+moustacheBrown.src = "img/avatar-parts/Facial-Hair/moustache-brown.svg"
+
+var moustacheBlack = new Image()
+moustacheBlack.src = "img/avatar-parts/Facial-Hair/moustache-black.svg"
+
+var moustacheRed = new Image()
+moustacheRed.src = "img/avatar-parts/Facial-Hair/moustache-red.svg"
+
+var moustacheGrey = new Image()
+moustacheGrey.src = "img/avatar-parts/Facial-Hair/moustache-grey.svg"
 
 
 //glasses
